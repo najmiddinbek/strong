@@ -134,7 +134,7 @@ const Filter = () => {
                         <tbody key={t.id} className="text-center w-full">
                             <tr className={`${getRowBackgroundColor(index)} w-full`}>
                                 <td className="px-2 py-4 admin_panel_td admin_panel-tih admin_panel_index ">{index + 1}</td>
-                                <td className="px-2 py-4 admin_panel_td">{t.newIsm}-sinf</td>
+                                <td className="px-2 py-4 admin_panel_td">{t.newIsm}</td>
                                 <td className="px-2 py-4 admin_panel_td">{t.telephoneRaqami}</td>
                                 <td className="px-2 py-4 admin_panel_td">{t.school}-maktab</td>
                                 <td className='admin_panel_td'>{t.newSinfi}-sinf</td>
