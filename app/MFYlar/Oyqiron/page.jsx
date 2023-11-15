@@ -124,7 +124,7 @@ const Filter = () => {
                             <th className="admin_panel_th py-4 px-2 poppins-2">Telefon raqami</th>
                             <th className="admin_panel_th py-4 px-2 poppins-2">Maktab</th>
                             <th className="admin_panel_th py-4 px-2 poppins-2">Sinf</th>
-                            <th className="admin_panel_th py-4 px-2 poppins-2">MFY</th>
+                            <th className="admin_panel_th py-4 px-2 poppins-2">Yashash manzili</th>
                             <th className="admin_panel_th py-4 px-2 poppins-2">Kiritilgan vaqti</th>
                             <th className="admin_panel_th py-4 px-2 poppins-2">Qoldirgan dars vaqti</th>
                             <th className="admin_panel_th py-4 px-2 poppins-2">Yashash manzili</th>
