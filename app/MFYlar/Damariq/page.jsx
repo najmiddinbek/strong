@@ -37,7 +37,7 @@ const Filter = () => {
             const a = await getTopics();
             const topics = a?.topiclar;
 
-            const filteredTopics = topics.filter((t) => t.MFY === "DAMARIQ MFY");
+            const filteredTopics = topics.filter((t) => t.MFY === "Азимов Мирзо-Бобур Мирзабахром ўғли (DAMARIQ MFY)");
 
             setTopiclar(filteredTopics);
             setFilteredMavzula(filteredTopics);

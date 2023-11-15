@@ -37,7 +37,7 @@ const Filter = () => {
             const a = await getTopics();
             const topics = a?.topiclar;
 
-            const filteredTopics = topics.filter((t) => t.MFY === "QORABOG` MFY");
+            const filteredTopics = topics.filter((t) => t.MFY === "Жўрабоев Акмалжон Комилжонович (QORABOG`)");
 
             setTopiclar(filteredTopics);
             setFilteredMavzula(filteredTopics);

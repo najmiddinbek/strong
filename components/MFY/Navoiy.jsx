@@ -21,7 +21,7 @@ const getTopics = async () => {
         const { topiclar } = await res.json();
         const filteredTopics = topiclar.filter((topic) => {
             const createdAt = new Date(topic.createdAt).getTime();
-            return createdAt > filterDate && topic.MFY === 'A.NAVOIY MFY';
+            return createdAt > filterDate && topic.MFY === 'Усманов Наримов Вахидович (A.NAVOIY MFY)';
         });
 
         return filteredTopics;
@@ -46,7 +46,7 @@ export default function Count() {
 
                 // Filter topics by MFY equal to "CHOROTOQ MFY"
                 const filteredTopicsByMFY = newFilteredTopics.filter(
-                    (topic) => topic.MFY === 'A.NAVOIY MFY'
+                    (topic) => topic.MFY === 'Усманов Наримов Вахидович (A.NAVOIY MFY)'
                 );
 
                 setTopicCount(filteredTopicsByMFY.length);

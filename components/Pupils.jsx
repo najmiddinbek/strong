@@ -140,63 +140,77 @@ const PupilsAddClient = () => {
 
                         <select className="px-2 py-3 cursor-pointer" onChange={(e) => setMFY(e.target.value)} value={MFY}>
                             <option>Bu yerdan tanlang</option>
-                            <option>OYQIRON MFY</option>
-                            <option>NAMANGAN MFY</option>
-                            <option>BAG`RIKENGLIK MFY</option>
-                            <option>ALIXON MFY</option>
-                            <option>ARBAG`ISH MFY</option>
-                            <option>BALIQ KO`L MFY</option>
-                            <option>BAYNALMINAL MFY</option>
-                            <option>BESHKAPA MFY</option>
-                            <option>BESHTOL MFY</option>
-                            <option>BODOMZOR MFY</option>
-                            <option>BOG` MFY</option>
-                            <option>BOG`ISTON MFY</option>
-                            <option>BOLON MFY</option>
-                            <option>BOZORBOSHI MFY</option>
-                            <option>CHIG`ATOY</option>
-                            <option>CHORSU MFY</option>
-                            <option>DAMARIQ MFY</option>
-                            <option>DEHQONOBOD MFY</option>
-                            <option>DILDOSH MFY</option>
-                            <option>Z.DIYOR MFY</option>
-                            <option>DO`STLIK</option>
-                            <option>GULDIROV MFY</option>
-                            <option>GULSHAN</option>
-                            <option>IFTIXOR MFY</option>
-                            <option>ISTIQLOL MFY</option>
-                            <option>KESKANYOR MFY</option>
-                            <option>KOMILLIK MFY</option>
-                            <option>LASKIDON MFY</option>
-                            <option>MUSTAQILLIK MFY</option>
-                            <option>NAMANGAN MFY</option>
-                            <option>NAVBAHOR MFY</option>
-                            <option>A.NAVOIY MFY</option>
-                            <option>OBOD-DIYOR MFY</option>
-                            <option>OQTERAK MFY</option>
-                            <option>ORA-ARIQ MFY</option>
-                            <option>O`RIKOZOR MFY</option>
-                            <option>OROMGOH MFY</option>
-                            <option>QORAMURT MFY</option>
-                            <option>SARKOR MFY</option>
-                            <option>SAROY MFY</option>
-                            <option>SOHIBKOR MFY</option>
-                            <option>SOY MFY</option>
-                            <option>SOZ-SOY MFY</option>
-                            <option>TENGDOSH MFY</option>
-                            <option>TINCHLIK MFY</option>
-                            <option>TOPQAYRAG`OCH MFY</option>
-                            <option>TORIQ MFY</option>
-                            <option>TURKISTON MFY</option>
-                            <option>O`ZBEKISTON MFY</option>
-                            <option>UZUN KO`CHA MFY</option>
-                            <option>XAYRLI MFY</option>
-                            <option>XAZRATISHOX MFY</option>
-                            <option>YANGIOBOD MFY</option>
-                            <option>YUKSALISH MFY</option>
-                            <option>ZANGIOBOD MFY</option>
-                            <option>ZIYOKOR MFY</option>
-                            <option>NAVRUZ MFY</option>
+                            <option>Birinchi mintaqa</option>
+                            <option>Инамов Бахром Хабибжонович (OYQIRON MFY)</option>
+                            <option>Бахриддинов Ўткир Хусниддинович (NAMANGAN MFY)</option>
+                            <option>Дедабоев Баходир  (BAG`RIKENGLIK MFY)</option>
+                            <option> Хасанов Изаттила Олимжон ўғли (CHIG`ATOY)</option>
+                            <option>Машраббоев Адхамжон Илхомжон ўғли (BAYNALMINAL MFY)</option>
+                            <option>Мамадиёров Охунжон Хошимжон ўғлиа  (BOG` MFY)</option>
+                            <option>Солиев Улуғбек Хошимжон ўғли (O`RIKOZOR MFY)</option>
+                            <option>Ғуломжонов Ғиёсиддин Ғофуржон ўғли  (KOMILLIK MFY)</option>
+                            <option>Хасанов Отабок Миршокирович  (YANGIOBOD MFY)</option>
+
+                            <option>Ikkinchi mintaqa</option>
+                            <option>Азимов Мирзо-Бобур Мирзабахром ўғли (DAMARIQ MFY)</option>
+                            <option>Қирғизов Анваржон Адилжанович (LASKIDON MFY)</option>
+                            <option>Тўхтабоев Бобомурод Тошпўлот ўғли  (KESKANYOR MFY)</option>
+                            <option>Юлдашев Элёр Ахмадуллаевич  (IFTIXOR MFY)</option>
+                            <option>Усманов Наримов Вахидович (A.NAVOIY MFY)</option>
+                            <option>Холмирзаев Исмоилбек Қаюможонович  (NAVBAHOR MFY)</option>
+                            <option>Мирзаев Фарход Қаюмович (YUKSALISH MFY)</option>
+
+
+                            <option>Uchinchi mintaqa</option>
+                            <option>Абдуллаев Дилмурод Шухратжонович (DO`STLIK MFY)</option>
+                            <option>Жўрабоев Тохир Рахимжон ўғли (O`ZBEKISTON)</option>
+                            <option>Авазбеков Акрамжон Анварбек ўғли  (Z.DIYOR MFY)</option>
+                            <option>Обидов Бекзод (BESHKAPA MFY)</option>
+                            <option>Жўраев Рахматилло Сайдвалиевич (DILDOSH MFY)</option>
+                            <option>Файзуллаев Иброхим Жунайдулло ўғли  (OROMGOH MFY)</option>
+                            <option>Исломов Шерзод Зулфиқораович  (SOHIBKOR MFY)</option>
+                            <option>Икрамов Азизбек Қахрамон ўғли (XAYRLI MFY)</option>
+
+                            <option>tortinchi mintaqa</option>
+                            <option>Абдуллаев Абдухалил Фахриддинович (OBOD-DIYOR MFY)</option>
+                            <option>Жўрабоев Акмалжон Комилжонович (QORABOG`)</option>
+                            <option>Абдулходиев Умиджон Турсунпўлот ўғли  (CHORSU MFY)</option>
+                            <option>Хотамжонов Отабек Улуғбек ўғли (GULDIROV MFY)</option>
+                            <option>Комилов Дилмурод Тоштонбекович (GULSHAN)</option>
+                            <option>Махмудаов Акбарали Аълохон ўғли  (QORAMURT MFY)</option>
+                            <option>Худойбердиев Бунёд Авазбекович (SAROY MFY)</option>
+                            <option>Қосимов Достон Рустам ўғли  (SOY MFY)</option>
+
+                            <option>Beshinchi mintaqa</option>
+                            <option>Мамадалихўжаев Мирсаидхўжа (ARBAG`ISH)</option>
+                            <option>Тўрабоев Фазлиддин Каюмович  (UZUN KO`CHA MFY)</option>
+                            <option>Мамасолиев Мухриддин Омонжон ўғли  (TO`PQAYRAG`OCH)</option>
+                            <option>Турғунов Жамшидбек Ахмадиллу ўғли (BOZORBOSHI MFY)</option>
+                            <option>Жамалов Дониёр Сидиқжонович (DEHQONOBOD MFY)</option>
+                            <option>Нажмиддинов Низомжон Фазлитдин ўғли  (ALIXON)</option>
+                            <option>Нишонбоев Абдурахмон  (BODOMZOR MFY)</option>
+                            <option>Рустамов Хуснидин Фахриддинович (SOZ-SOY MFY)</option>
+
+                            <option>Oltinchi mintaqa</option>
+
+                            <option>Бувамирзаев Мақсуджон Маърупжон ўғли (TORIQ MFY)</option>
+
+                            <option>Иминжанов Ғайратжон Умаржон ўғли  (ORA-ARIQ MFY)</option>
+                            <option>Абдуллаев Рустамжон Рахимжанович (XAZRATISHOX MFY)</option>
+                            <option>Ғайбуллаев Хўдойберди Ёдгорали ўғли  (BALIQ KO`L MFY)</option>
+                            <option>Қобулов Жохонгир Одилжонович (BESHTOL MFY)</option>
+                            <option>Мамасодиқов Ботиржон Зокиржон ўғли  (BOG`ISTON MFY)</option>
+
+
+                            <option>Yettinchi mintaqa</option>
+                            <option>Сайфидинов Сардор Фозилдинович (TURKISTON MFY)</option>
+                            <option>Холматов Муроджон Анваржон ўғли  (BOLON MFY)</option>
+                            <option>Исмоилов Илхомжон Икромжонович (ISTIQLOL MFY)</option>
+                            <option>Холматов Алишер Илхомжон ўғли  (MUSTAQILLIK MFY)</option>
+                            <option>Камалов Дилшод Дилмурод ўғли (NURAFSHON MFY)</option>
+                            <option>Акбаров Элдорбек Сайфиддинович (NAVRUZ MFY)</option>
+                            <option>Рахимов Аъзамат Азамжон ўғли  (SARKOR MFY)</option>
+                            <option>Нематжанов Қахрамон Исломжон ўғли  (TINCHLIK MFY)</option>
                         </select>
                         <label className="text-[18px] font-bold poppins" htmlFor="">
                             Qoldirilgan dars vaqti

@@ -21,7 +21,7 @@ const getTopics = async () => {
         const { topiclar } = await res.json();
         const filteredTopics = topiclar.filter((topic) => {
             const createdAt = new Date(topic.createdAt).getTime();
-            return createdAt > filterDate && topic.MFY === 'ORA-ARIQ MFY';
+            return createdAt > filterDate && topic.MFY === 'Иминжанов Ғайратжон Умаржон ўғли  (ORA-ARIQ MFY)';
         });
 
         return filteredTopics;
@@ -46,7 +46,7 @@ export default function Count() {
 
                 // Filter topics by MFY equal to "CHOROTOQ MFY"
                 const filteredTopicsByMFY = newFilteredTopics.filter(
-                    (topic) => topic.MFY === 'ORA-ARIQ MFY'
+                    (topic) => topic.MFY === 'Иминжанов Ғайратжон Умаржон ўғли  (ORA-ARIQ MFY)'
                 );
 
                 setTopicCount(filteredTopicsByMFY.length);

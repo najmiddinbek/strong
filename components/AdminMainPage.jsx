@@ -126,7 +126,7 @@ export default function AdminMainPage() {
                                 1.
                             </p>
                             <p className='text-[18px] poppins'>
-                                Oyqiron MFY
+                                Инамов Бахром Хабибжонович
                             </p>
                         </div>
                         <div className="flex gap-2">
@@ -147,7 +147,7 @@ export default function AdminMainPage() {
                                 2.
                             </p>
                             <p className='text-[18px] poppins'>
-                                Namangan MFY
+                                Бахриддинов Ўткир Хусниддинович (NAMANGAN MFY)
                             </p>
                         </div>
                         <div className="flex gap-2">
@@ -168,7 +168,7 @@ export default function AdminMainPage() {
                                 3.
                             </p>
                             <p className='text-[18px] poppins'>
-                                Bagrikenglik MFY
+                                Дедабоев Баходир  (BAG`RIKENGLIK MFY)
                             </p>
                         </div>
                         <div className="flex gap-2">
@@ -189,7 +189,7 @@ export default function AdminMainPage() {
                                 4.
                             </p>
                             <p className='text-[18px] poppins'>
-                                Baynalminal MFY
+                                Машраббоев Адхамжон Илхомжон ўғли (BAYNALMINAL MFY)
                             </p>
                         </div>
                         <div className="flex gap-2">
@@ -210,7 +210,7 @@ export default function AdminMainPage() {
                                 5.
                             </p>
                             <p className='text-[18px] poppins'>
-                                Komillik MFY
+                                Ғуломжонов Ғиёсиддин Ғофуржон ўғли  (KOMILLIK MFY)
                             </p>
                         </div>
                         <div className="flex gap-2">
@@ -240,7 +240,7 @@ export default function AdminMainPage() {
                                         6.
                                     </p>
                                     <p className='text-[18px] poppins'>
-                                        Yangiobod MFY
+                                        Хасанов Отабок Миршокирович  (YANGIOBOD MFY)
                                     </p>
                                 </div>
                                 <div className="flex gap-2">
@@ -261,7 +261,7 @@ export default function AdminMainPage() {
                                         7.
                                     </p>
                                     <p className='text-[18px] poppins'>
-                                        Bog` MFY
+                                        Мамадиёров Охунжон Хошимжон ўғлиа  (BOG` MFY)
                                     </p>
                                 </div>
                                 <div className="flex gap-2">
@@ -282,7 +282,7 @@ export default function AdminMainPage() {
                                         8.
                                     </p>
                                     <p className='text-[18px] poppins'>
-                                        O`rikzor MFY
+                                        Солиев Улуғбек Хошимжон ўғли (O`RIKOZOR MFY
                                     </p>
                                 </div>
                                 <div className="flex gap-2">
@@ -303,7 +303,7 @@ export default function AdminMainPage() {
                                         9.
                                     </p>
                                     <p className='text-[18px] poppins'>
-                                        Chig`atoy MFY
+                                        Хасанов Изаттила Олимжон ўғли (CHIG`ATOY)
                                     </p>
                                 </div>
                                 <div className="flex gap-2">
@@ -324,7 +324,7 @@ export default function AdminMainPage() {
                                         10.
                                     </p>
                                     <p className='text-[18px] poppins'>
-                                        Yuksalish MFY
+                                        Мирзаев Фарход Қаюмович (YUKSALISH MFY)
                                     </p>
                                 </div>
                                 <div className="flex gap-2">
@@ -356,7 +356,7 @@ export default function AdminMainPage() {
                                         11.
                                     </p>
                                     <p className='text-[18px] poppins'>
-                                        A.Navoiy  MFY
+                                        Усманов Наримов Вахидович (A.NAVOIY MFY)
                                     </p>
                                 </div>
                                 <div className="flex gap-2">
@@ -377,7 +377,7 @@ export default function AdminMainPage() {
                                         12.
                                     </p>
                                     <p className='text-[18px] poppins'>
-                                        Laskidon MFY
+                                        Қирғизов Анваржон Адилжанович (LASKIDON MFY)
                                     </p>
                                 </div>
                                 <div className="flex gap-2">
@@ -398,7 +398,7 @@ export default function AdminMainPage() {
                                         13.
                                     </p>
                                     <p className='text-[18px] poppins'>
-                                        Keskanyor MFY
+                                        Тўхтабоев Бобомурод Тошпўлот ўғли  (KESKANYOR MFY)
                                     </p>
                                 </div>
                                 <div className="flex gap-2">
@@ -419,7 +419,7 @@ export default function AdminMainPage() {
                                         14.
                                     </p>
                                     <p className='text-[18px] poppins'>
-                                        Iftixor MFY
+                                        Юлдашев Элёр Ахмадуллаевич  (IFTIXOR MFY)
                                     </p>
                                 </div>
                                 <div className="flex gap-2">
@@ -440,7 +440,7 @@ export default function AdminMainPage() {
                                         15.
                                     </p>
                                     <p className='text-[18px] poppins'>
-                                        Navbahor MFY
+                                        Холмирзаев Исмоилбек Қаюможонович  (NAVBAHOR MFY)
                                     </p>
                                 </div>
                                 <div className="flex gap-2">
@@ -493,7 +493,7 @@ export default function AdminMainPage() {
                                         17.
                                     </p>
                                     <p className='text-[18px] poppins'>
-                                        Damariq MFY
+                                        Азимов Мирзо-Бобур Мирзабахром ўғли (DAMARIQ MFY)
                                     </p>
                                 </div>
                                 <div className="flex gap-2">
@@ -514,7 +514,7 @@ export default function AdminMainPage() {
                                         18.
                                     </p>
                                     <p className='text-[18px] poppins'>
-                                        Do`stlik MFY
+                                        Абдуллаев Дилмурод Шухратжонович (DO`STLIK MFY)
                                     </p>
                                 </div>
                                 <div className="flex gap-2">
@@ -535,7 +535,7 @@ export default function AdminMainPage() {
                                         19.
                                     </p>
                                     <p className='text-[18px] poppins'>
-                                        O`zbekiston MFY
+                                        Жўрабоев Тохир Рахимжон ўғли (O`ZBEKISTON)
                                     </p>
                                 </div>
                                 <div className="flex gap-2">
@@ -556,7 +556,7 @@ export default function AdminMainPage() {
                                         20.
                                     </p>
                                     <p className='text-[18px] poppins'>
-                                        Xayrli MFY
+                                        Икрамов Азизбек Қахрамон ўғли (XAYRLI MFY)
                                     </p>
                                 </div>
                                 <div className="flex gap-2">
@@ -588,7 +588,7 @@ export default function AdminMainPage() {
                                         21.
                                     </p>
                                     <p className='text-[18px] poppins'>
-                                        Z.Diyor MFY
+                                        Авазбеков Акрамжон Анварбек ўғли  (Z.DIYOR MFY)
                                     </p>
                                 </div>
                                 <div className="flex gap-2">
@@ -609,7 +609,7 @@ export default function AdminMainPage() {
                                         22.
                                     </p>
                                     <p className='text-[18px] poppins'>
-                                        Dildosh MFY
+                                        Жўраев Рахматилло Сайдвалиевич (DILDOSH MFY)
                                     </p>
                                 </div>
                                 <div className="flex gap-2">
@@ -630,7 +630,7 @@ export default function AdminMainPage() {
                                         23.
                                     </p>
                                     <p className='text-[18px] poppins'>
-                                        Beshkapa MFY
+                                        Обидов Бекзод (BESHKAPA MFY)
                                     </p>
                                 </div>
                                 <div className="flex gap-2">
@@ -651,7 +651,7 @@ export default function AdminMainPage() {
                                         24.
                                     </p>
                                     <p className='text-[18px] poppins'>
-                                        Oromgoh MFY
+                                        Файзуллаев Иброхим Жунайдулло ўғли  (OROMGOH MFY)
                                     </p>
                                 </div>
                                 <div className="flex gap-2">
@@ -672,7 +672,7 @@ export default function AdminMainPage() {
                                         25.
                                     </p>
                                     <p className='text-[18px] poppins'>
-                                        Sohibkor MFY
+                                        Исломов Шерзод Зулфиқораович  (SOHIBKOR MFY)
                                     </p>
                                 </div>
                                 <div className="flex gap-2">
@@ -705,7 +705,7 @@ export default function AdminMainPage() {
                                         26.
                                     </p>
                                     <p className='text-[18px] poppins'>
-                                        Gulshan MFY
+                                        Комилов Дилмурод Тоштонбекович (GULSHAN)
                                     </p>
                                 </div>
                                 <div className="flex gap-2">
@@ -726,7 +726,7 @@ export default function AdminMainPage() {
                                         27.
                                     </p>
                                     <p className='text-[18px] poppins'>
-                                        Soy MFY
+                                        Қосимов Достон Рустам ўғли  (SOY MFY)
                                     </p>
                                 </div>
                                 <div className="flex gap-2">
@@ -747,7 +747,7 @@ export default function AdminMainPage() {
                                         28.
                                     </p>
                                     <p className='text-[18px] poppins'>
-                                        Qorabog` MFY
+                                        Жўрабоев Акмалжон Комилжонович (QORABOG`)
                                     </p>
                                 </div>
                                 <div className="flex gap-2">
@@ -768,7 +768,7 @@ export default function AdminMainPage() {
                                         29.
                                     </p>
                                     <p className='text-[18px] poppins'>
-                                        Obod-diyor MFY
+                                        Абдуллаев Абдухалил Фахриддинович (OBOD-DIYOR MFY)
                                     </p>
                                 </div>
                                 <div className="flex gap-2">
@@ -789,7 +789,7 @@ export default function AdminMainPage() {
                                         30.
                                     </p>
                                     <p className='text-[18px] poppins'>
-                                        Chorsu MFY
+                                        Абдулходиев Умиджон Турсунпўлот ўғли  (CHORSU MFY)
                                     </p>
                                 </div>
                                 <div className="flex gap-2">
@@ -821,7 +821,7 @@ export default function AdminMainPage() {
                                         31.
                                     </p>
                                     <p className='text-[18px] poppins'>
-                                        Guldirov MFY
+                                        Хотамжонов Отабек Улуғбек ўғли (GULDIROV MFY)
                                     </p>
                                 </div>
                                 <div className="flex gap-2">
@@ -842,7 +842,7 @@ export default function AdminMainPage() {
                                         32.
                                     </p>
                                     <p className='text-[18px] poppins'>
-                                        Saroy MFY
+                                        Худойбердиев Бунёд Авазбекович (SAROY MFY)
                                     </p>
                                 </div>
                                 <div className="flex gap-2">
@@ -863,7 +863,7 @@ export default function AdminMainPage() {
                                         33.
                                     </p>
                                     <p className='text-[18px] poppins'>
-                                        Qoramurt MFY
+                                        Махмудаов Акбарали Аълохон ўғли  (QORAMURT MFY)
                                     </p>
                                 </div>
                                 <div className="flex gap-2">
@@ -884,7 +884,7 @@ export default function AdminMainPage() {
                                         34.
                                     </p>
                                     <p className='text-[18px] poppins'>
-                                        Dehqonobod MFY
+                                        Жамалов Дониёр Сидиқжонович (DEHQONOBOD MFY
                                     </p>
                                 </div>
                                 <div className="flex gap-2">
@@ -905,7 +905,7 @@ export default function AdminMainPage() {
                                         35.
                                     </p>
                                     <p className='text-[18px] poppins'>
-                                        Alixon MFY
+                                        Нажмиддинов Низомжон Фазлитдин ўғли  (ALIXON)
                                     </p>
                                 </div>
                                 <div className="flex gap-2">
@@ -938,7 +938,7 @@ export default function AdminMainPage() {
                                         36.
                                     </p>
                                     <p className='text-[18px] poppins'>
-                                        Bodomzor MFY
+                                        Нишонбоев Абдурахмон  (BODOMZOR MFY)
                                     </p>
                                 </div>
                                 <div className="flex gap-2">
@@ -959,7 +959,7 @@ export default function AdminMainPage() {
                                         37.
                                     </p>
                                     <p className='text-[18px] poppins'>
-                                        Arbag`ish MFY
+                                        Мамадалихўжаев Мирсаидхўжа (ARBAG`ISH)
                                     </p>
                                 </div>
                                 <div className="flex gap-2">
@@ -980,7 +980,7 @@ export default function AdminMainPage() {
                                         38.
                                     </p>
                                     <p className='text-[18px] poppins'>
-                                        To`pqayrag`och MFY
+                                        Мамасолиев Мухриддин Омонжон ўғли  (TO`PQAYRAG`OCH)
                                     </p>
                                 </div>
                                 <div className="flex gap-2">
@@ -1001,7 +1001,7 @@ export default function AdminMainPage() {
                                         39.
                                     </p>
                                     <p className='text-[18px] poppins'>
-                                        Bozorboshi MFY
+                                        Турғунов Жамшидбек Ахмадиллу ўғли (BOZORBOSHI MFY)
                                     </p>
                                 </div>
                                 <div className="flex gap-2">
@@ -1022,7 +1022,7 @@ export default function AdminMainPage() {
                                         40.
                                     </p>
                                     <p className='text-[18px] poppins'>
-                                        Soz-soy MFY
+                                        Рустамов Хуснидин Фахриддинович (SOZ-SOY MFY)
                                     </p>
                                 </div>
                                 <div className="flex gap-2">
@@ -1043,7 +1043,7 @@ export default function AdminMainPage() {
                                         41.
                                     </p>
                                     <p className='text-[18px] poppins'>
-                                        Uzun ko`cha MFY
+                                        Тўрабоев Фазлиддин Каюмович  (UZUN KO`CHA MFY)
                                     </p>
                                 </div>
                                 <div className="flex gap-2">
@@ -1085,7 +1085,7 @@ export default function AdminMainPage() {
                                         43.
                                     </p>
                                     <p className='text-[18px] poppins'>
-                                        Ora-ariq MFY
+                                        Иминжанов Ғайратжон Умаржон ўғли  (ORA-ARIQ MFY)
                                     </p>
                                 </div>
                                 <div className="flex gap-2">
@@ -1106,7 +1106,7 @@ export default function AdminMainPage() {
                                         44.
                                     </p>
                                     <p className='text-[18px] poppins'>
-                                        Beshtol MFY
+                                        Қобулов Жохонгир Одилжонович (BESHTOL MFY)
                                     </p>
                                 </div>
                                 <div className="flex gap-2">
@@ -1127,7 +1127,7 @@ export default function AdminMainPage() {
                                         45.
                                     </p>
                                     <p className='text-[18px] poppins'>
-                                        Baliq ko`l MFY
+                                        айбуллаев Хўдойберди Ёдгорали ўғли  (BALIQ KO`L MFY)
                                     </p>
                                 </div>
                                 <div className="flex gap-2">
@@ -1160,7 +1160,7 @@ export default function AdminMainPage() {
                                         46.
                                     </p>
                                     <p className='text-[18px] poppins'>
-                                        Bog`iston MFY
+                                        Мамасодиқов Ботиржон Зокиржон ўғли  (BOG`ISTON MFY)
                                     </p>
                                 </div>
                                 <div className="flex gap-2">
@@ -1202,7 +1202,7 @@ export default function AdminMainPage() {
                                         48.
                                     </p>
                                     <p className='text-[18px] poppins'>
-                                        Xazratishox MFY
+                                        Абдуллаев Рустамжон Рахимжанович (XAZRATISHOX MFY)
                                     </p>
                                 </div>
                                 <div className="flex gap-2">
@@ -1223,7 +1223,7 @@ export default function AdminMainPage() {
                                         49.
                                     </p>
                                     <p className='text-[18px] poppins'>
-                                        To`riq MFY
+                                        Бувамирзаев Мақсуджон Маърупжон ўғли (TORIQ MFY)
                                     </p>
                                 </div>
                                 <div className="flex gap-2">
@@ -1244,7 +1244,7 @@ export default function AdminMainPage() {
                                         50.
                                     </p>
                                     <p className='text-[18px] poppins'>
-                                        Turkiston MFY
+                                        Сайфидинов Сардор Фозилдинович (TURKISTON MFY)
                                     </p>
                                 </div>
                                 <div className="flex gap-2">
@@ -1265,7 +1265,7 @@ export default function AdminMainPage() {
                                         51.
                                     </p>
                                     <p className='text-[18px] poppins'>
-                                        Bo`lon MFY
+                                        Холматов Муроджон Анваржон ўғли  (BOLON MFY)
                                     </p>
                                 </div>
                                 <div className="flex gap-2">
@@ -1286,7 +1286,7 @@ export default function AdminMainPage() {
                                             52.
                                         </p>
                                         <p className='text-[18px] poppins'>
-                                            Mustaqillik MFY
+                                            Холматов Алишер Илхомжон ўғли  (MUSTAQILLIK MFY)
                                         </p>
                                     </div>
                                     <div className="flex gap-2">
@@ -1307,7 +1307,7 @@ export default function AdminMainPage() {
                                             53.
                                         </p>
                                         <p className='text-[18px] poppins'>
-                                            Istiqlol MFY
+                                            Исмоилов Илхомжон Икромжонович (ISTIQLOL MFY)
                                         </p>
                                     </div>
                                     <div className="flex gap-2">
@@ -1328,7 +1328,7 @@ export default function AdminMainPage() {
                                             54.
                                         </p>
                                         <p className='text-[18px] poppins'>
-                                            Sarkor MFY
+                                            Рахимов Аъзамат Азамжон ўғли  (SARKOR MFY)
                                         </p>
                                     </div>
                                     <div className="flex gap-2">
@@ -1349,7 +1349,7 @@ export default function AdminMainPage() {
                                             55.
                                         </p>
                                         <p className='text-[18px] poppins'>
-                                            Nurafshon MFY
+                                            Камалов Дилшод Дилмурод ўғли (NURAFSHON MFY)
                                         </p>
                                     </div>
                                     <div className="flex gap-2">
@@ -1371,7 +1371,7 @@ export default function AdminMainPage() {
                                         56.
                                     </p>
                                     <p className='text-[18px] poppins'>
-                                        Tinchlik MFY
+                                        Нематжанов Қахрамон Исломжон ўғли  (TINCHLIK MFY)
                                     </p>
                                 </div>
                                 <div className="flex gap-2">
@@ -1392,7 +1392,7 @@ export default function AdminMainPage() {
                                         57.
                                     </p>
                                     <p className='text-[18px] poppins'>
-                                        Navruz MFY
+                                        Акбаров Элдорбек Сайфиддинович (NAVRUZ MFY)
                                     </p>
                                 </div>
                                 <div className="flex gap-2">
@@ -1417,6 +1417,6 @@ export default function AdminMainPage() {
 
 
             </>
-        </div>
+        </div >
     );
 }

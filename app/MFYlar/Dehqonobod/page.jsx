@@ -37,7 +37,7 @@ const Filter = () => {
             const a = await getTopics();
             const topics = a?.topiclar;
 
-            const filteredTopics = topics.filter((t) => t.MFY === "DEHQONOBOD MFY");
+            const filteredTopics = topics.filter((t) => t.MFY === "Жамалов Дониёр Сидиқжонович (DEHQONOBOD MFY");
 
             setTopiclar(filteredTopics);
             setFilteredMavzula(filteredTopics);

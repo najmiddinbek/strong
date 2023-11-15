@@ -37,7 +37,7 @@ const Filter = () => {
             const a = await getTopics();
             const topics = a?.topiclar;
 
-            const filteredTopics = topics.filter((t) => t.MFY === "ORA-ARIQ MFY");
+            const filteredTopics = topics.filter((t) => t.MFY === "Иминжанов Ғайратжон Умаржон ўғли  (ORA-ARIQ MFY)");
 
             setTopiclar(filteredTopics);
             setFilteredMavzula(filteredTopics);

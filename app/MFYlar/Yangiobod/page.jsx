@@ -37,7 +37,7 @@ const Filter = () => {
             const a = await getTopics();
             const topics = a?.topiclar;
 
-            const filteredTopics = topics.filter((t) => t.MFY === "YANGIOBOD MFY");
+            const filteredTopics = topics.filter((t) => t.MFY === "Хасанов Отабок Миршокирович  (YANGIOBOD MFY)");
 
             setTopiclar(filteredTopics);
             setFilteredMavzula(filteredTopics);

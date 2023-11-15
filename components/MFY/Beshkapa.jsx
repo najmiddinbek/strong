@@ -17,7 +17,7 @@ const getTopics = async () => {
         const { topiclar } = await res.json();
         const filteredTopics = topiclar.filter(topic => {
             const createdAt = new Date(topic.createdAt).getTime();
-            return createdAt > filterDate && topic.MFY === 'BESHKAPA MFY';
+            return createdAt > filterDate && topic.MFY === 'Обидов Бекзод (BESHKAPA MFY)';
         });
 
         return filteredTopics;
@@ -41,7 +41,7 @@ export default function Count() {
                 );
 
                 const filteredTopicsByMFY = newFilteredTopics.filter(
-                    topic => topic.MFY === 'BESHKAPA MFY'
+                    topic => topic.MFY === 'Обидов Бекзод (BESHKAPA MFY)'
                 );
 
                 setTopicCount(filteredTopicsByMFY.length);

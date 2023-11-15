@@ -37,7 +37,7 @@ const Filter = () => {
             const a = await getTopics();
             const topics = a?.topiclar;
 
-            const filteredTopics = topics.filter((t) => t.MFY === "MUSTAQILLIK MFY");
+            const filteredTopics = topics.filter((t) => t.MFY === "Холматов Алишер Илхомжон ўғли  (MUSTAQILLIK MFY)");
 
             setTopiclar(filteredTopics);
             setFilteredMavzula(filteredTopics);

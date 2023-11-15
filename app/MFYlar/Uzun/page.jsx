@@ -37,7 +37,7 @@ const Filter = () => {
             const a = await getTopics();
             const topics = a?.topiclar;
 
-            const filteredTopics = topics.filter((t) => t.MFY === "UZUN KO`CHA MFY");
+            const filteredTopics = topics.filter((t) => t.MFY === "Тўрабоев Фазлиддин Каюмович  (UZUN KO`CHA MFY)");
 
             setTopiclar(filteredTopics);
             setFilteredMavzula(filteredTopics);

@@ -21,7 +21,7 @@ const getTopics = async () => {
         const { topiclar } = await res.json();
         const filteredTopics = topiclar.filter((topic) => {
             const createdAt = new Date(topic.createdAt).getTime();
-            return createdAt > filterDate && topic.MFY === 'YUKSALISH MFY';
+            return createdAt > filterDate && topic.MFY === '  <option>Мирзаев Фарход Қаюмович (YUKSALISH MFY)</option>';
         });
 
         return filteredTopics;
@@ -46,7 +46,7 @@ export default function Count() {
 
                 // Filter topics by MFY equal to "CHOROTOQ MFY"
                 const filteredTopicsByMFY = newFilteredTopics.filter(
-                    (topic) => topic.MFY === 'YUKSALISH MFY'
+                    (topic) => topic.MFY === '  <option>Мирзаев Фарход Қаюмович (YUKSALISH MFY)</option>'
                 );
 
                 setTopicCount(filteredTopicsByMFY.length);

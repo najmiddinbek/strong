@@ -19,7 +19,7 @@ const getTopics = async () => {
         const { topiclar } = await res.json();
         const filteredTopics = topiclar.filter((topic) => {
             const createdAt = new Date(topic.createdAt).getTime();
-            return createdAt > filterDate && topic.MFY === 'NAVRUZ MFY';
+            return createdAt > filterDate && topic.MFY === 'Акбаров Элдорбек Сайфиддинович (NAVRUZ MFY)';
         });
 
         return filteredTopics;
@@ -44,7 +44,7 @@ export default function Count() {
 
                 // Filter topics by MFY equal to "CHOROTOQ MFY"
                 const filteredTopicsByMFY = newFilteredTopics.filter(
-                    (topic) => topic.MFY === 'NAVRUZ MFY'
+                    (topic) => topic.MFY === 'Акбаров Элдорбек Сайфиддинович (NAVRUZ MFY)'
                 );
 
                 setTopicCount(filteredTopicsByMFY.length);

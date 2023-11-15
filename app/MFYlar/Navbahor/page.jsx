@@ -37,7 +37,7 @@ const Filter = () => {
             const a = await getTopics();
             const topics = a?.topiclar;
 
-            const filteredTopics = topics.filter((t) => t.MFY === "NAVBAHOR MFY");
+            const filteredTopics = topics.filter((t) => t.MFY === "Холмирзаев Исмоилбек Қаюможонович  (NAVBAHOR MFY)");
 
             setTopiclar(filteredTopics);
             setFilteredMavzula(filteredTopics);
