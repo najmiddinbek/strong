@@ -119,7 +119,7 @@ export default function AdminMainPage() {
                 </Link>
             </div>
             <>
-                <h1 className='text-center poppins text-3xl mb-3'>Birinchi mintaqa</h1>
+                <h1 className='text-center poppins text-3xl mb-3 textred-800'>Birinchi mintaqa</h1>
                 <Link href={"/MFYlar/Oyqiron"}>
                     <div data-aos="fade-up" className='max-w-[1400px] mx-auto w-full shadow-md p-3 bg-white rounded-md flex justify-between items-center h-full mb-3'>
                         <div className='flex items-center gap-1'>
