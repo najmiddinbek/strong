@@ -8,63 +8,63 @@ import Image from 'next/image'
 import ITLOGO from '../public/Logo_IT_Park_Uzbekistan.svg.png'
 
 
-import Bolon from "./MFY/Bolon"
-import Oyqiron from "./MFY/Oyqiron"
-import Namangan from "./MFY/Namangan"
-import Bagrikenglik from "./MFY/Bagrikenglik"
-import Baynalminal from "./MFY/Baynalminal"
-import Komillik from "./MFY/Komillik"
-import Yangiobod from "./MFY/Yangiobod";
-import Bog from "./MFY/Bog";
-import Orikzor from "./MFY/Orikzor";
-import Chigatoy from "./MFY/Chigatoy";
-import Yuksalish from './MFY/Yuksalish';
-import Navoiy from "./MFY/Navoiy";
-import Laskidon from "./MFY/Laskidon";
-import Keskanyor from "./MFY/Keskanyor";
-import Iftixor from "./MFY/Iftixor";
-import Navbahor from "./MFY/Navbahor";
-import Tengdosh from "./MFY/Tengdosh";
-import Damariq from "./MFY/Damariq";
-import Dostlik from "./MFY/Dostlik";
-import Uzbekistan from "./MFY/uzbekistan"
-import Xayrli from "./MFY/Xayrli";
-import Diyor from "./MFY/Diyor";
-import Dildosh from "./MFY/Dildosh";
-import Beshkapa from "./MFY/Beshkapa";
-import Oromgoh from "./MFY/Oromgoh";
-import Sohibkor from "./MFY/Sohibkor";
-import Gulshan from "./MFY/Gulshan";
-import Soy from "./MFY/Soy";
-import Qorabog from "./MFY/Qorabog";
-import Obod from "./MFY/Obod-diyor";
-import Chorsu from "./MFY/Chorsu";
-import Guldirov from "./MFY/Guldirov";
-import Saroy from "./MFY/Saroy";
-import Qoramurt from "./MFY/Qoramurt";
-import Dehqonobod from "./MFY/Dehqonobod"
-import Alixon from "./MFY/Alixon"
-import Bodomzor from "./MFY/Bodomzor"
-import Arbagish from "./MFY/Arbagish"
-import Topqayragoch from "./MFY/Topqayragoch";
-import Bozorboshi from "./MFY/Bozorboshi"
-import SozSoy from "./MFY/Soz"
-import Uzun from "./MFY/Uzun";
-import Oqterak from "./MFY/Oqterak";
-import Ariq from "./MFY/Oqterak";
-import Beshtol from "./MFY/Beshtol";
-import Baliqkol from "./MFY/Baliq";
-import Bogiston from "./MFY/Bogiston";
-import Zangiobod from "./MFY/Zangiobod";
-import Xazratishox from "./MFY/Xazratishox";
-import Toriq from "./MFY/Toriq";
-import Turkiston from "./MFY/Turkiston";
-import Mustaqillik from "./MFY/Mustaqillik";
-import Istiqlol from "./MFY/Istiqlol";
-import Sarkor from "./MFY/Sarkor";
-import Nurafshon from "./MFY/Nurafshon";
-import Tinchlik from "./MFY/Tinchlik";
-import Navruz from "./MFY/Navruz";
+// import Bolon from "./MFY/Bolon"
+// import Oyqiron from "./MFY/Oyqiron"
+// import Namangan from "./MFY/Namangan"
+// import Bagrikenglik from "./MFY/Bagrikenglik"
+// import Baynalminal from "./MFY/Baynalminal"
+// import Komillik from "./MFY/Komillik"
+// import Yangiobod from "./MFY/Yangiobod";
+// import Bog from "./MFY/Bog";
+// import Orikzor from "./MFY/Orikzor";
+// import Chigatoy from "./MFY/Chigatoy";
+// import Yuksalish from './MFY/Yuksalish';
+// import Navoiy from "./MFY/Navoiy";
+// import Laskidon from "./MFY/Laskidon";
+// import Keskanyor from "./MFY/Keskanyor";
+// import Iftixor from "./MFY/Iftixor";
+// import Navbahor from "./MFY/Navbahor";
+// import Tengdosh from "./MFY/Tengdosh";
+// import Damariq from "./MFY/Damariq";
+// import Dostlik from "./MFY/Dostlik";
+// import Uzbekistan from "./MFY/uzbekistan"
+// import Xayrli from "./MFY/Xayrli";
+// import Diyor from "./MFY/Diyor";
+// import Dildosh from "./MFY/Dildosh";
+// import Beshkapa from "./MFY/Beshkapa";
+// import Oromgoh from "./MFY/Oromgoh";
+// import Sohibkor from "./MFY/Sohibkor";
+// import Gulshan from "./MFY/Gulshan";
+// import Soy from "./MFY/Soy";
+// import Qorabog from "./MFY/Qorabog";
+// import Obod from "./MFY/Obod-diyor";
+// import Chorsu from "./MFY/Chorsu";
+// import Guldirov from "./MFY/Guldirov";
+// import Saroy from "./MFY/Saroy";
+// import Qoramurt from "./MFY/Qoramurt";
+// import Dehqonobod from "./MFY/Dehqonobod"
+// import Alixon from "./MFY/Alixon"
+// import Bodomzor from "./MFY/Bodomzor"
+// import Arbagish from "./MFY/Arbagish"
+// import Topqayragoch from "./MFY/Topqayragoch";
+// import Bozorboshi from "./MFY/Bozorboshi"
+// import SozSoy from "./MFY/Soz"
+// import Uzun from "./MFY/Uzun";
+// import Oqterak from "./MFY/Oqterak";
+// import Ariq from "./MFY/Oqterak";
+// import Beshtol from "./MFY/Beshtol";
+// import Baliqkol from "./MFY/Baliq";
+// import Bogiston from "./MFY/Bogiston";
+// import Zangiobod from "./MFY/Zangiobod";
+// import Xazratishox from "./MFY/Xazratishox";
+// import Toriq from "./MFY/Toriq";
+// import Turkiston from "./MFY/Turkiston";
+// import Mustaqillik from "./MFY/Mustaqillik";
+// import Istiqlol from "./MFY/Istiqlol";
+// import Sarkor from "./MFY/Sarkor";
+// import Nurafshon from "./MFY/Nurafshon";
+// import Tinchlik from "./MFY/Tinchlik";
+// import Navruz from "./MFY/Navruz";
 
 import { BiListPlus } from "react-icons/bi"
 
@@ -113,12 +113,13 @@ export default function AdminMainPage() {
     return (
         <div className='admin_main_page_some_padding mt-10 max-w-[1400px] ml-auto mr-auto'>
             <div data-aos="fade-down" className="flex justify-between mb-3 main_panel">
-                <h1 className='page_text poppins text-3xl mb-4 font-bold'>Barcha MFY </h1>
+                <h1 className='page_text poppins text-3xl mb-4 font-bold'>Barcha MFY inspektorlari </h1>
                 <Link href={"/"} className="green asosiy_button py-3 px-10 button text-white rounded-md">
                     Orqaga
                 </Link>
             </div>
             <>
+                <h1 className='text-center poppins text-3xl'>Birinchi mintaqa</h1>
                 <Link href={"/MFYlar/Oyqiron"}>
                     <div data-aos="fade-up" className='max-w-[1400px] mx-auto w-full shadow-md p-3 bg-white rounded-md flex justify-between items-center h-full mb-3'>
                         <div className='flex items-center gap-1'>
@@ -126,17 +127,14 @@ export default function AdminMainPage() {
                                 1.
                             </p>
                             <p className='text-[18px] poppins'>
-                                Инамов Бахром Хабибжонович
+                                Инамов Бахром Хабибжонович (Ойқирон МФЙ )
                             </p>
                         </div>
                         <div className="flex gap-2">
                             <div className='w-12 h-12 bg-[#f8f8f8] rounded-md flex items-center justify-center'>
                                 <AiOutlineEye className='text-3xl' />
                             </div>
-                            <div className='w-12 h-12 relative bg-[#f8f8f8] flex items-center justify-center rounded-md'>
-                                <BsFillEnvelopeFill className='text-3xl' />
-                                <Oyqiron />
-                            </div>
+                            {/* <Oyqiron /> */}
                         </div>
                     </div>
                 </Link>
@@ -154,10 +152,7 @@ export default function AdminMainPage() {
                             <div className='w-12 h-12 bg-[#f8f8f8] rounded-md flex items-center justify-center'>
                                 <AiOutlineEye className='text-3xl' />
                             </div>
-                            <div className='w-12 h-12 relative bg-[#f8f8f8] flex items-center justify-center rounded-md'>
-                                <BsFillEnvelopeFill className='text-3xl' />
-                                <Namangan />
-                            </div>
+                            {/* <Namangan /> */}
                         </div>
                     </div>
                 </Link>
@@ -175,10 +170,7 @@ export default function AdminMainPage() {
                             <div className='w-12 h-12 bg-[#f8f8f8] rounded-md flex items-center justify-center'>
                                 <AiOutlineEye className='text-3xl' />
                             </div>
-                            <div className='w-12 h-12 relative bg-[#f8f8f8] flex items-center justify-center rounded-md'>
-                                <BsFillEnvelopeFill className='text-3xl' />
-                                <Bagrikenglik />
-                            </div>
+                            {/* <Bagrikenglik /> */}
                         </div>
                     </div>
                 </Link>
@@ -196,10 +188,7 @@ export default function AdminMainPage() {
                             <div className='w-12 h-12 bg-[#f8f8f8] rounded-md flex items-center justify-center'>
                                 <AiOutlineEye className='text-3xl' />
                             </div>
-                            <div className='w-12 h-12 relative bg-[#f8f8f8] flex items-center justify-center rounded-md'>
-                                <BsFillEnvelopeFill className='text-3xl' />
-                                <Baynalminal />
-                            </div>
+                            {/* <Baynalminal /> */}
                         </div>
                     </div>
                 </Link>
@@ -217,10 +206,79 @@ export default function AdminMainPage() {
                             <div className='w-12 h-12 bg-[#f8f8f8] rounded-md flex items-center justify-center'>
                                 <AiOutlineEye className='text-3xl' />
                             </div>
-                            <div className='w-12 h-12 relative bg-[#f8f8f8] flex items-center justify-center rounded-md'>
-                                <BsFillEnvelopeFill className='text-3xl' />
-                                <Komillik />
+                            {/* <Komillik /> */}
+                        </div>
+                    </div>
+                </Link>
+                <Link href={"/MFYlar/Yangiobod"}>
+                    <div data-aos="fade-up" className='max-w-[1400px] mx-auto w-full shadow-md p-3 bg-white rounded-md flex justify-between items-center h-full mb-3'>
+                        <div className='flex items-center gap-1'>
+                            <p className='text-black font-bold'>
+                                6.
+                            </p>
+                            <p className='text-[18px] poppins'>
+                                Хасанов Отабок Миршокирович  (YANGIOBOD MFY)
+                            </p>
+                        </div>
+                        <div className="flex gap-2">
+                            <div className='w-12 h-12 bg-[#f8f8f8] rounded-md flex items-center justify-center'>
+                                <AiOutlineEye className='text-3xl' />
                             </div>
+                            {/* <Yangiobod /> */}
+                        </div>
+                    </div>
+                </Link>
+                <Link href={"/MFYlar/Bog"}>
+                    <div data-aos="fade-up" className='max-w-[1400px] mx-auto w-full shadow-md p-3 bg-white rounded-md flex justify-between items-center h-full mb-3'>
+                        <div className='flex items-center gap-1'>
+                            <p className='text-black font-bold'>
+                                7.
+                            </p>
+                            <p className='text-[18px] poppins'>
+                                Мамадиёров Охунжон Хошимжон ўғлиа  (BOG` MFY)
+                            </p>
+                        </div>
+                        <div className="flex gap-2">
+                            <div className='w-12 h-12 bg-[#f8f8f8] rounded-md flex items-center justify-center'>
+                                <AiOutlineEye className='text-3xl' />
+                            </div>
+                            {/* <Bog /> */}
+                        </div>
+                    </div>
+                </Link>
+                <Link href={"/MFYlar/Orikzor"}>
+                    <div data-aos="fade-up" className='max-w-[1400px] mx-auto w-full shadow-md p-3 bg-white rounded-md flex justify-between items-center h-full mb-3'>
+                        <div className='flex items-center gap-1'>
+                            <p className='text-black font-bold'>
+                                8.
+                            </p>
+                            <p className='text-[18px] poppins'>
+                                Солиев Улуғбек Хошимжон ўғли (O`RIKOZOR MFY
+                            </p>
+                        </div>
+                        <div className="flex gap-2">
+                            <div className='w-12 h-12 bg-[#f8f8f8] rounded-md flex items-center justify-center'>
+                                <AiOutlineEye className='text-3xl' />
+                            </div>
+                            {/* <Orikzor /> */}
+                        </div>
+                    </div>
+                </Link>
+                <Link href={"/MFYlar/Chigatoy"}>
+                    <div data-aos="fade-up" className='max-w-[1400px] mx-auto w-full shadow-md p-3 bg-white rounded-md flex justify-between items-center h-full mb-3'>
+                        <div className='flex items-center gap-1'>
+                            <p className='text-black font-bold'>
+                                9.
+                            </p>
+                            <p className='text-[18px] poppins'>
+                                Хасанов Изаттила Олимжон ўғли (CHIG`ATOY)
+                            </p>
+                        </div>
+                        <div className="flex gap-2">
+                            <div className='w-12 h-12 bg-[#f8f8f8] rounded-md flex items-center justify-center'>
+                                <AiOutlineEye className='text-3xl' />
+                            </div>
+                            {/* <Chigatoy /> */}
                         </div>
                     </div>
                 </Link>
@@ -233,90 +291,7 @@ export default function AdminMainPage() {
 
                 {showElements1 && (
                     <>
-                        <Link href={"/MFYlar/Yangiobod"}>
-                            <div data-aos="fade-up" className='max-w-[1400px] mx-auto w-full shadow-md p-3 bg-white rounded-md flex justify-between items-center h-full mb-3'>
-                                <div className='flex items-center gap-1'>
-                                    <p className='text-black font-bold'>
-                                        6.
-                                    </p>
-                                    <p className='text-[18px] poppins'>
-                                        Хасанов Отабок Миршокирович  (YANGIOBOD MFY)
-                                    </p>
-                                </div>
-                                <div className="flex gap-2">
-                                    <div className='w-12 h-12 bg-[#f8f8f8] rounded-md flex items-center justify-center'>
-                                        <AiOutlineEye className='text-3xl' />
-                                    </div>
-                                    <div className='w-12 h-12 relative bg-[#f8f8f8] flex items-center justify-center rounded-md'>
-                                        <BsFillEnvelopeFill className='text-3xl' />
-                                        <Yangiobod />
-                                    </div>
-                                </div>
-                            </div>
-                        </Link>
-                        <Link href={"/MFYlar/Bog"}>
-                            <div data-aos="fade-up" className='max-w-[1400px] mx-auto w-full shadow-md p-3 bg-white rounded-md flex justify-between items-center h-full mb-3'>
-                                <div className='flex items-center gap-1'>
-                                    <p className='text-black font-bold'>
-                                        7.
-                                    </p>
-                                    <p className='text-[18px] poppins'>
-                                        Мамадиёров Охунжон Хошимжон ўғлиа  (BOG` MFY)
-                                    </p>
-                                </div>
-                                <div className="flex gap-2">
-                                    <div className='w-12 h-12 bg-[#f8f8f8] rounded-md flex items-center justify-center'>
-                                        <AiOutlineEye className='text-3xl' />
-                                    </div>
-                                    <div className='w-12 h-12 relative bg-[#f8f8f8] flex items-center justify-center rounded-md'>
-                                        <BsFillEnvelopeFill className='text-3xl' />
-                                        <Bog />
-                                    </div>
-                                </div>
-                            </div>
-                        </Link>
-                        <Link href={"/MFYlar/Orikzor"}>
-                            <div data-aos="fade-up" className='max-w-[1400px] mx-auto w-full shadow-md p-3 bg-white rounded-md flex justify-between items-center h-full mb-3'>
-                                <div className='flex items-center gap-1'>
-                                    <p className='text-black font-bold'>
-                                        8.
-                                    </p>
-                                    <p className='text-[18px] poppins'>
-                                        Солиев Улуғбек Хошимжон ўғли (O`RIKOZOR MFY
-                                    </p>
-                                </div>
-                                <div className="flex gap-2">
-                                    <div className='w-12 h-12 bg-[#f8f8f8] rounded-md flex items-center justify-center'>
-                                        <AiOutlineEye className='text-3xl' />
-                                    </div>
-                                    <div className='w-12 h-12 relative bg-[#f8f8f8] flex items-center justify-center rounded-md'>
-                                        <BsFillEnvelopeFill className='text-3xl' />
-                                        <Orikzor />
-                                    </div>
-                                </div>
-                            </div>
-                        </Link>
-                        <Link href={"/MFYlar/Chigatoy"}>
-                            <div data-aos="fade-up" className='max-w-[1400px] mx-auto w-full shadow-md p-3 bg-white rounded-md flex justify-between items-center h-full mb-3'>
-                                <div className='flex items-center gap-1'>
-                                    <p className='text-black font-bold'>
-                                        9.
-                                    </p>
-                                    <p className='text-[18px] poppins'>
-                                        Хасанов Изаттила Олимжон ўғли (CHIG`ATOY)
-                                    </p>
-                                </div>
-                                <div className="flex gap-2">
-                                    <div className='w-12 h-12 bg-[#f8f8f8] rounded-md flex items-center justify-center'>
-                                        <AiOutlineEye className='text-3xl' />
-                                    </div>
-                                    <div className='w-12 h-12 relative bg-[#f8f8f8] flex items-center justify-center rounded-md'>
-                                        <BsFillEnvelopeFill className='text-3xl' />
-                                        <Chigatoy />
-                                    </div>
-                                </div>
-                            </div>
-                        </Link>
+                        <h1 className='text-center poppins text-3xl'>Ikkinchi mintaqa</h1>
                         <Link href={"/MFYlar/Yuksalish"}>
                             <div data-aos="fade-up" className='max-w-[1400px] mx-auto w-full shadow-md p-3 bg-white rounded-md flex justify-between items-center h-full mb-3'>
                                 <div className='flex items-center gap-1'>
@@ -331,24 +306,10 @@ export default function AdminMainPage() {
                                     <div className='w-12 h-12 bg-[#f8f8f8] rounded-md flex items-center justify-center'>
                                         <AiOutlineEye className='text-3xl' />
                                     </div>
-                                    <div className='w-12 h-12 relative bg-[#f8f8f8] flex items-center justify-center rounded-md'>
-                                        <BsFillEnvelopeFill className='text-3xl' />
-                                        <Yuksalish />
-                                    </div>
+                                    {/* <Yuksalish /> */}
                                 </div>
                             </div>
                         </Link>
-                        <div className="flex justify-end">
-                            <button className='px-10 py-2 green text-4xl rounded-md cursor-pointer text-white' onClick={handleToggle2}>
-                                <BiListPlus />
-                            </button>
-                        </div>
-                    </>
-                )}
-
-
-                {showElements2 && (
-                    <>
                         <Link href={"/MFYlar/Navoiy"}>
                             <div data-aos="fade-up" className='max-w-[1400px] mx-auto w-full shadow-md p-3 bg-white rounded-md flex justify-between items-center h-full mb-3'>
                                 <div className='flex items-center gap-1'>
@@ -363,10 +324,7 @@ export default function AdminMainPage() {
                                     <div className='w-12 h-12 bg-[#f8f8f8] rounded-md flex items-center justify-center'>
                                         <AiOutlineEye className='text-3xl' />
                                     </div>
-                                    <div className='w-12 h-12 relative bg-[#f8f8f8] flex items-center justify-center rounded-md'>
-                                        <BsFillEnvelopeFill className='text-3xl' />
-                                        <Navoiy />
-                                    </div>
+                                    {/* <Navoiy /> */}
                                 </div>
                             </div>
                         </Link>
@@ -384,10 +342,7 @@ export default function AdminMainPage() {
                                     <div className='w-12 h-12 bg-[#f8f8f8] rounded-md flex items-center justify-center'>
                                         <AiOutlineEye className='text-3xl' />
                                     </div>
-                                    <div className='w-12 h-12 relative bg-[#f8f8f8] flex items-center justify-center rounded-md'>
-                                        <BsFillEnvelopeFill className='text-3xl' />
-                                        <Laskidon />
-                                    </div>
+                                    {/* <Laskidon /> */}
                                 </div>
                             </div>
                         </Link>
@@ -405,10 +360,7 @@ export default function AdminMainPage() {
                                     <div className='w-12 h-12 bg-[#f8f8f8] rounded-md flex items-center justify-center'>
                                         <AiOutlineEye className='text-3xl' />
                                     </div>
-                                    <div className='w-12 h-12 relative bg-[#f8f8f8] flex items-center justify-center rounded-md'>
-                                        <BsFillEnvelopeFill className='text-3xl' />
-                                        <Keskanyor />
-                                    </div>
+                                    {/* <Keskanyor /> */}
                                 </div>
                             </div>
                         </Link>
@@ -426,10 +378,7 @@ export default function AdminMainPage() {
                                     <div className='w-12 h-12 bg-[#f8f8f8] rounded-md flex items-center justify-center'>
                                         <AiOutlineEye className='text-3xl' />
                                     </div>
-                                    <div className='w-12 h-12 relative bg-[#f8f8f8] flex items-center justify-center rounded-md'>
-                                        <BsFillEnvelopeFill className='text-3xl' />
-                                        <Iftixor />
-                                    </div>
+                                    {/* <Iftixor /> */}
                                 </div>
                             </div>
                         </Link>
@@ -447,24 +396,10 @@ export default function AdminMainPage() {
                                     <div className='w-12 h-12 bg-[#f8f8f8] rounded-md flex items-center justify-center'>
                                         <AiOutlineEye className='text-3xl' />
                                     </div>
-                                    <div className='w-12 h-12 relative bg-[#f8f8f8] flex items-center justify-center rounded-md'>
-                                        <BsFillEnvelopeFill className='text-3xl' />
-                                        <Navbahor />
-                                    </div>
+                                    {/* <Navbahor /> */}
                                 </div>
                             </div>
                         </Link>
-                        <div className="flex justify-end">
-                            <button className='px-10 py-2 green text-4xl rounded-md cursor-pointer text-white' onClick={handleToggle3}>
-                                <BiListPlus />
-                            </button>
-                        </div>
-                    </>
-                )}
-
-
-                {showElements3 && (
-                    <>
                         <Link href={"/MFYlar/Tengdosh"}>
                             <div data-aos="fade-up" className='max-w-[1400px] mx-auto w-full shadow-md p-3 bg-white rounded-md flex justify-between items-center h-full mb-3'>
                                 <div className='flex items-center gap-1'>
@@ -479,10 +414,7 @@ export default function AdminMainPage() {
                                     <div className='w-12 h-12 bg-[#f8f8f8] rounded-md flex items-center justify-center'>
                                         <AiOutlineEye className='text-3xl' />
                                     </div>
-                                    <div className='w-12 h-12 relative bg-[#f8f8f8] flex items-center justify-center rounded-md'>
-                                        <BsFillEnvelopeFill className='text-3xl' />
-                                        <Tengdosh />
-                                    </div>
+                                    {/* <Tengdosh /> */}
                                 </div>
                             </div>
                         </Link>
@@ -500,13 +432,22 @@ export default function AdminMainPage() {
                                     <div className='w-12 h-12 bg-[#f8f8f8] rounded-md flex items-center justify-center'>
                                         <AiOutlineEye className='text-3xl' />
                                     </div>
-                                    <div className='w-12 h-12 relative bg-[#f8f8f8] flex items-center justify-center rounded-md'>
-                                        <BsFillEnvelopeFill className='text-3xl' />
-                                        <Damariq />
-                                    </div>
+                                    {/* <Damariq /> */}
                                 </div>
                             </div>
                         </Link>
+                        <div className="flex justify-end">
+                            <button className='px-10 py-2 green text-4xl rounded-md cursor-pointer text-white' onClick={handleToggle2}>
+                                <BiListPlus />
+                            </button>
+                        </div>
+                    </>
+                )}
+
+
+                {showElements2 && (
+                    <>
+                        <h1 className='text-center poppins text-3xl'>Uchinchi mintaqa</h1>
                         <Link href={"/MFYlar/Dostlik"}>
                             <div data-aos="fade-up" className='max-w-[1400px] mx-auto w-full shadow-md p-3 bg-white rounded-md flex justify-between items-center h-full mb-3'>
                                 <div className='flex items-center gap-1'>
@@ -521,10 +462,7 @@ export default function AdminMainPage() {
                                     <div className='w-12 h-12 bg-[#f8f8f8] rounded-md flex items-center justify-center'>
                                         <AiOutlineEye className='text-3xl' />
                                     </div>
-                                    <div className='w-12 h-12 relative bg-[#f8f8f8] flex items-center justify-center rounded-md'>
-                                        <BsFillEnvelopeFill className='text-3xl' />
-                                        <Dostlik />
-                                    </div>
+                                    {/* <Dostlik /> */}
                                 </div>
                             </div>
                         </Link>
@@ -542,10 +480,7 @@ export default function AdminMainPage() {
                                     <div className='w-12 h-12 bg-[#f8f8f8] rounded-md flex items-center justify-center'>
                                         <AiOutlineEye className='text-3xl' />
                                     </div>
-                                    <div className='w-12 h-12 relative bg-[#f8f8f8] flex items-center justify-center rounded-md'>
-                                        <BsFillEnvelopeFill className='text-3xl' />
-                                        <Uzbekistan />
-                                    </div>
+                                    {/* <Uzbekistan /> */}
                                 </div>
                             </div>
                         </Link>
@@ -563,24 +498,10 @@ export default function AdminMainPage() {
                                     <div className='w-12 h-12 bg-[#f8f8f8] rounded-md flex items-center justify-center'>
                                         <AiOutlineEye className='text-3xl' />
                                     </div>
-                                    <div className='w-12 h-12 relative bg-[#f8f8f8] flex items-center justify-center rounded-md'>
-                                        <BsFillEnvelopeFill className='text-3xl' />
-                                        <Xayrli />
-                                    </div>
+                                    {/* <Xayrli /> */}
                                 </div>
                             </div>
                         </Link>
-                        <div className="flex justify-end">
-                            <button className='px-10 py-2 green text-4xl rounded-md cursor-pointer text-white' onClick={handleToggle4}>
-                                <BiListPlus />
-                            </button>
-                        </div>
-                    </>
-                )}
-
-
-                {showElements4 && (
-                    <>
                         <Link href={"/MFYlar/Diyor"}>
                             <div data-aos="fade-up" className='max-w-[1400px] mx-auto w-full shadow-md p-3 bg-white rounded-md flex justify-between items-center h-full mb-3'>
                                 <div className='flex items-center gap-1'>
@@ -595,10 +516,7 @@ export default function AdminMainPage() {
                                     <div className='w-12 h-12 bg-[#f8f8f8] rounded-md flex items-center justify-center'>
                                         <AiOutlineEye className='text-3xl' />
                                     </div>
-                                    <div className='w-12 h-12 relative bg-[#f8f8f8] flex items-center justify-center rounded-md'>
-                                        <BsFillEnvelopeFill className='text-3xl' />
-                                        <Diyor />
-                                    </div>
+                                    {/* <Diyor /> */}
                                 </div>
                             </div>
                         </Link>
@@ -616,10 +534,7 @@ export default function AdminMainPage() {
                                     <div className='w-12 h-12 bg-[#f8f8f8] rounded-md flex items-center justify-center'>
                                         <AiOutlineEye className='text-3xl' />
                                     </div>
-                                    <div className='w-12 h-12 relative bg-[#f8f8f8] flex items-center justify-center rounded-md'>
-                                        <BsFillEnvelopeFill className='text-3xl' />
-                                        <Dildosh />
-                                    </div>
+                                    {/* <Dildosh /> */}
                                 </div>
                             </div>
                         </Link>
@@ -637,10 +552,7 @@ export default function AdminMainPage() {
                                     <div className='w-12 h-12 bg-[#f8f8f8] rounded-md flex items-center justify-center'>
                                         <AiOutlineEye className='text-3xl' />
                                     </div>
-                                    <div className='w-12 h-12 relative bg-[#f8f8f8] flex items-center justify-center rounded-md'>
-                                        <BsFillEnvelopeFill className='text-3xl' />
-                                        <Beshkapa />
-                                    </div>
+                                    {/* <Beshkapa /> */}
                                 </div>
                             </div>
                         </Link>
@@ -658,10 +570,7 @@ export default function AdminMainPage() {
                                     <div className='w-12 h-12 bg-[#f8f8f8] rounded-md flex items-center justify-center'>
                                         <AiOutlineEye className='text-3xl' />
                                     </div>
-                                    <div className='w-12 h-12 relative bg-[#f8f8f8] flex items-center justify-center rounded-md'>
-                                        <BsFillEnvelopeFill className='text-3xl' />
-                                        <Oromgoh />
-                                    </div>
+                                    {/* <Oromgoh /> */}
                                 </div>
                             </div>
                         </Link>
@@ -679,15 +588,12 @@ export default function AdminMainPage() {
                                     <div className='w-12 h-12 bg-[#f8f8f8] rounded-md flex items-center justify-center'>
                                         <AiOutlineEye className='text-3xl' />
                                     </div>
-                                    <div className='w-12 h-12 relative bg-[#f8f8f8] flex items-center justify-center rounded-md'>
-                                        <BsFillEnvelopeFill className='text-3xl' />
-                                        <Sohibkor />
-                                    </div>
+                                    {/* <Sohibkor /> */}
                                 </div>
                             </div>
                         </Link>
                         <div className="flex justify-end">
-                            <button className='px-10 py-2 green text-4xl rounded-md cursor-pointer text-white' onClick={handleToggle5}>
+                            <button className='px-10 py-2 green text-4xl rounded-md cursor-pointer text-white' onClick={handleToggle3}>
                                 <BiListPlus />
                             </button>
                         </div>
@@ -695,9 +601,9 @@ export default function AdminMainPage() {
                 )}
 
 
-
-                {showElements5 && (
+                {showElements3 && (
                     <>
+                        <h1 className='text-center poppins text-3xl'>To`rtinchi mintaqa</h1>
                         <Link href={"/MFYlar/Gulshan"}>
                             <div data-aos="fade-up" className='max-w-[1400px] mx-auto w-full shadow-md p-3 bg-white rounded-md flex justify-between items-center h-full mb-3'>
                                 <div className='flex items-center gap-1'>
@@ -712,10 +618,7 @@ export default function AdminMainPage() {
                                     <div className='w-12 h-12 bg-[#f8f8f8] rounded-md flex items-center justify-center'>
                                         <AiOutlineEye className='text-3xl' />
                                     </div>
-                                    <div className='w-12 h-12 relative bg-[#f8f8f8] flex items-center justify-center rounded-md'>
-                                        <BsFillEnvelopeFill className='text-3xl' />
-                                        <Gulshan />
-                                    </div>
+                                    {/* <Gulshan /> */}
                                 </div>
                             </div>
                         </Link>
@@ -733,10 +636,7 @@ export default function AdminMainPage() {
                                     <div className='w-12 h-12 bg-[#f8f8f8] rounded-md flex items-center justify-center'>
                                         <AiOutlineEye className='text-3xl' />
                                     </div>
-                                    <div className='w-12 h-12 relative bg-[#f8f8f8] flex items-center justify-center rounded-md'>
-                                        <BsFillEnvelopeFill className='text-3xl' />
-                                        <Soy />
-                                    </div>
+                                    {/* <Soy /> */}
                                 </div>
                             </div>
                         </Link>
@@ -754,10 +654,7 @@ export default function AdminMainPage() {
                                     <div className='w-12 h-12 bg-[#f8f8f8] rounded-md flex items-center justify-center'>
                                         <AiOutlineEye className='text-3xl' />
                                     </div>
-                                    <div className='w-12 h-12 relative bg-[#f8f8f8] flex items-center justify-center rounded-md'>
-                                        <BsFillEnvelopeFill className='text-3xl' />
-                                        <Qorabog />
-                                    </div>
+                                    {/* <Qorabog /> */}
                                 </div>
                             </div>
                         </Link>
@@ -775,10 +672,7 @@ export default function AdminMainPage() {
                                     <div className='w-12 h-12 bg-[#f8f8f8] rounded-md flex items-center justify-center'>
                                         <AiOutlineEye className='text-3xl' />
                                     </div>
-                                    <div className='w-12 h-12 relative bg-[#f8f8f8] flex items-center justify-center rounded-md'>
-                                        <BsFillEnvelopeFill className='text-3xl' />
-                                        <Obod />
-                                    </div>
+                                    {/* <Obod /> */}
                                 </div>
                             </div>
                         </Link>
@@ -796,24 +690,10 @@ export default function AdminMainPage() {
                                     <div className='w-12 h-12 bg-[#f8f8f8] rounded-md flex items-center justify-center'>
                                         <AiOutlineEye className='text-3xl' />
                                     </div>
-                                    <div className='w-12 h-12 relative bg-[#f8f8f8] flex items-center justify-center rounded-md'>
-                                        <BsFillEnvelopeFill className='text-3xl' />
-                                        <Chorsu />
-                                    </div>
+                                    {/* <Chorsu /> */}
                                 </div>
                             </div>
                         </Link>
-                        <div className="flex justify-end">
-                            <button className='px-10 py-2 green text-4xl rounded-md cursor-pointer text-white' onClick={handleToggle6}>
-                                <BiListPlus />
-                            </button>
-                        </div>
-                    </>
-                )}
-
-
-                {showElements6 && (
-                    <>
                         <Link href={"/MFYlar/Guldirov"}>
                             <div data-aos="fade-up" className='max-w-[1400px] mx-auto w-full shadow-md p-3 bg-white rounded-md flex justify-between items-center h-full mb-3'>
                                 <div className='flex items-center gap-1'>
@@ -828,10 +708,7 @@ export default function AdminMainPage() {
                                     <div className='w-12 h-12 bg-[#f8f8f8] rounded-md flex items-center justify-center'>
                                         <AiOutlineEye className='text-3xl' />
                                     </div>
-                                    <div className='w-12 h-12 relative bg-[#f8f8f8] flex items-center justify-center rounded-md'>
-                                        <BsFillEnvelopeFill className='text-3xl' />
-                                        <Guldirov />
-                                    </div>
+                                    {/* <Guldirov /> */}
                                 </div>
                             </div>
                         </Link>
@@ -849,10 +726,7 @@ export default function AdminMainPage() {
                                     <div className='w-12 h-12 bg-[#f8f8f8] rounded-md flex items-center justify-center'>
                                         <AiOutlineEye className='text-3xl' />
                                     </div>
-                                    <div className='w-12 h-12 relative bg-[#f8f8f8] flex items-center justify-center rounded-md'>
-                                        <BsFillEnvelopeFill className='text-3xl' />
-                                        <Saroy />
-                                    </div>
+                                    {/* <Saroy /> */}
                                 </div>
                             </div>
                         </Link>
@@ -870,13 +744,22 @@ export default function AdminMainPage() {
                                     <div className='w-12 h-12 bg-[#f8f8f8] rounded-md flex items-center justify-center'>
                                         <AiOutlineEye className='text-3xl' />
                                     </div>
-                                    <div className='w-12 h-12 relative bg-[#f8f8f8] flex items-center justify-center rounded-md'>
-                                        <BsFillEnvelopeFill className='text-3xl' />
-                                        <Qoramurt />
-                                    </div>
+                                    {/* <Qoramurt /> */}
                                 </div>
                             </div>
                         </Link>
+                        <div className="flex justify-end">
+                            <button className='px-10 py-2 green text-4xl rounded-md cursor-pointer text-white' onClick={handleToggle4}>
+                                <BiListPlus />
+                            </button>
+                        </div>
+                    </>
+                )}
+
+
+                {showElements4 && (
+                    <>
+                        <h1 className='text-center poppins text-3xl'>Beshinchi mintaqa</h1>
                         <Link href={"/MFYlar/Dehqonobod"}>
                             <div data-aos="fade-up" className='max-w-[1400px] mx-auto w-full shadow-md p-3 bg-white rounded-md flex justify-between items-center h-full mb-3'>
                                 <div className='flex items-center gap-1'>
@@ -891,10 +774,7 @@ export default function AdminMainPage() {
                                     <div className='w-12 h-12 bg-[#f8f8f8] rounded-md flex items-center justify-center'>
                                         <AiOutlineEye className='text-3xl' />
                                     </div>
-                                    <div className='w-12 h-12 relative bg-[#f8f8f8] flex items-center justify-center rounded-md'>
-                                        <BsFillEnvelopeFill className='text-3xl' />
-                                        <Dehqonobod />
-                                    </div>
+                                    {/* <Dehqonobod /> */}
                                 </div>
                             </div>
                         </Link>
@@ -912,25 +792,10 @@ export default function AdminMainPage() {
                                     <div className='w-12 h-12 bg-[#f8f8f8] rounded-md flex items-center justify-center'>
                                         <AiOutlineEye className='text-3xl' />
                                     </div>
-                                    <div className='w-12 h-12 relative bg-[#f8f8f8] flex items-center justify-center rounded-md'>
-                                        <BsFillEnvelopeFill className='text-3xl' />
-                                        <Alixon />
-                                    </div>
+                                    {/* <Alixon /> */}
                                 </div>
                             </div>
                         </Link>
-                        <div className="flex justify-end">
-                            <button className='px-10 py-2 green text-4xl rounded-md cursor-pointer text-white' onClick={handleToggle7}>
-                                <BiListPlus />
-                            </button>
-                        </div>
-                    </>
-                )}
-
-
-
-                {showElements7 && (
-                    <>
                         <Link href={"/MFYlar/Bodomzor"}>
                             <div data-aos="fade-up" className='max-w-[1400px] mx-auto w-full shadow-md p-3 bg-white rounded-md flex justify-between items-center h-full mb-3'>
                                 <div className='flex items-center gap-1'>
@@ -945,10 +810,7 @@ export default function AdminMainPage() {
                                     <div className='w-12 h-12 bg-[#f8f8f8] rounded-md flex items-center justify-center'>
                                         <AiOutlineEye className='text-3xl' />
                                     </div>
-                                    <div className='w-12 h-12 relative bg-[#f8f8f8] flex items-center justify-center rounded-md'>
-                                        <BsFillEnvelopeFill className='text-3xl' />
-                                        <Bodomzor />
-                                    </div>
+                                    {/* <Bodomzor /> */}
                                 </div>
                             </div>
                         </Link>
@@ -966,10 +828,7 @@ export default function AdminMainPage() {
                                     <div className='w-12 h-12 bg-[#f8f8f8] rounded-md flex items-center justify-center'>
                                         <AiOutlineEye className='text-3xl' />
                                     </div>
-                                    <div className='w-12 h-12 relative bg-[#f8f8f8] flex items-center justify-center rounded-md'>
-                                        <BsFillEnvelopeFill className='text-3xl' />
-                                        <Arbagish />
-                                    </div>
+                                    {/* <Arbagish /> */}
                                 </div>
                             </div>
                         </Link>
@@ -987,10 +846,7 @@ export default function AdminMainPage() {
                                     <div className='w-12 h-12 bg-[#f8f8f8] rounded-md flex items-center justify-center'>
                                         <AiOutlineEye className='text-3xl' />
                                     </div>
-                                    <div className='w-12 h-12 relative bg-[#f8f8f8] flex items-center justify-center rounded-md'>
-                                        <BsFillEnvelopeFill className='text-3xl' />
-                                        <Topqayragoch />
-                                    </div>
+                                    {/* <Topqayragoch /> */}
                                 </div>
                             </div>
                         </Link>
@@ -1008,10 +864,7 @@ export default function AdminMainPage() {
                                     <div className='w-12 h-12 bg-[#f8f8f8] rounded-md flex items-center justify-center'>
                                         <AiOutlineEye className='text-3xl' />
                                     </div>
-                                    <div className='w-12 h-12 relative bg-[#f8f8f8] flex items-center justify-center rounded-md'>
-                                        <BsFillEnvelopeFill className='text-3xl' />
-                                        <Bozorboshi />
-                                    </div>
+                                    {/* <Bozorboshi /> */}
                                 </div>
                             </div>
                         </Link>
@@ -1029,10 +882,7 @@ export default function AdminMainPage() {
                                     <div className='w-12 h-12 bg-[#f8f8f8] rounded-md flex items-center justify-center'>
                                         <AiOutlineEye className='text-3xl' />
                                     </div>
-                                    <div className='w-12 h-12 relative bg-[#f8f8f8] flex items-center justify-center rounded-md'>
-                                        <BsFillEnvelopeFill className='text-3xl' />
-                                        <SozSoy />
-                                    </div>
+                                    {/* <SozSoy /> */}
                                 </div>
                             </div>
                         </Link>
@@ -1050,13 +900,23 @@ export default function AdminMainPage() {
                                     <div className='w-12 h-12 bg-[#f8f8f8] rounded-md flex items-center justify-center'>
                                         <AiOutlineEye className='text-3xl' />
                                     </div>
-                                    <div className='w-12 h-12 relative bg-[#f8f8f8] flex items-center justify-center rounded-md'>
-                                        <BsFillEnvelopeFill className='text-3xl' />
-                                        <Uzun />
-                                    </div>
+                                    {/* <Uzun /> */}
                                 </div>
                             </div>
                         </Link>
+                        <div className="flex justify-end">
+                            <button className='px-10 py-2 green text-4xl rounded-md cursor-pointer text-white' onClick={handleToggle5}>
+                                <BiListPlus />
+                            </button>
+                        </div>
+                    </>
+                )}
+
+
+
+                {showElements5 && (
+                    <>
+                        <h1 className='text-center poppins text-3xl'>Oltinchi mintaqa</h1>
                         <Link href={"/MFYlar/Oqterak"}>
                             <div data-aos="fade-up" className='max-w-[1400px] mx-auto w-full shadow-md p-3 bg-white rounded-md flex justify-between items-center h-full mb-3'>
                                 <div className='flex items-center gap-1'>
@@ -1071,10 +931,7 @@ export default function AdminMainPage() {
                                     <div className='w-12 h-12 bg-[#f8f8f8] rounded-md flex items-center justify-center'>
                                         <AiOutlineEye className='text-3xl' />
                                     </div>
-                                    <div className='w-12 h-12 relative bg-[#f8f8f8] flex items-center justify-center rounded-md'>
-                                        <BsFillEnvelopeFill className='text-3xl' />
-                                        <Oqterak />
-                                    </div>
+                                    {/* <Oqterak /> */}
                                 </div>
                             </div>
                         </Link>
@@ -1092,10 +949,7 @@ export default function AdminMainPage() {
                                     <div className='w-12 h-12 bg-[#f8f8f8] rounded-md flex items-center justify-center'>
                                         <AiOutlineEye className='text-3xl' />
                                     </div>
-                                    <div className='w-12 h-12 relative bg-[#f8f8f8] flex items-center justify-center rounded-md'>
-                                        <BsFillEnvelopeFill className='text-3xl' />
-                                        <Ariq />
-                                    </div>
+                                    {/* <Ariq /> */}
                                 </div>
                             </div>
                         </Link>
@@ -1113,10 +967,7 @@ export default function AdminMainPage() {
                                     <div className='w-12 h-12 bg-[#f8f8f8] rounded-md flex items-center justify-center'>
                                         <AiOutlineEye className='text-3xl' />
                                     </div>
-                                    <div className='w-12 h-12 relative bg-[#f8f8f8] flex items-center justify-center rounded-md'>
-                                        <BsFillEnvelopeFill className='text-3xl' />
-                                        <Beshtol />
-                                    </div>
+                                    {/* <Beshtol /> */}
                                 </div>
                             </div>
                         </Link>
@@ -1134,25 +985,10 @@ export default function AdminMainPage() {
                                     <div className='w-12 h-12 bg-[#f8f8f8] rounded-md flex items-center justify-center'>
                                         <AiOutlineEye className='text-3xl' />
                                     </div>
-                                    <div className='w-12 h-12 relative bg-[#f8f8f8] flex items-center justify-center rounded-md'>
-                                        <BsFillEnvelopeFill className='text-3xl' />
-                                        <Baliqkol />
-                                    </div>
+                                    {/* <Baliqkol /> */}
                                 </div>
                             </div>
                         </Link>
-                        <div className="flex justify-end">
-                            <button className='px-10 py-2 green text-4xl rounded-md cursor-pointer text-white' onClick={handleToggle8}>
-                                <BiListPlus />
-                            </button>
-                        </div>
-                    </>
-                )}
-
-
-                {showElements8 && (
-                    <>
-
                         <Link href={"/MFYlar/Bogiston"}>
                             <div data-aos="fade-up" className='max-w-[1400px] mx-auto w-full shadow-md p-3 bg-white rounded-md flex justify-between items-center h-full mb-3'>
                                 <div className='flex items-center gap-1'>
@@ -1167,10 +1003,7 @@ export default function AdminMainPage() {
                                     <div className='w-12 h-12 bg-[#f8f8f8] rounded-md flex items-center justify-center'>
                                         <AiOutlineEye className='text-3xl' />
                                     </div>
-                                    <div className='w-12 h-12 relative bg-[#f8f8f8] flex items-center justify-center rounded-md'>
-                                        <BsFillEnvelopeFill className='text-3xl' />
-                                        <Bogiston />
-                                    </div>
+                                    {/* <Bogiston /> */}
                                 </div>
                             </div>
                         </Link>
@@ -1188,10 +1021,7 @@ export default function AdminMainPage() {
                                     <div className='w-12 h-12 bg-[#f8f8f8] rounded-md flex items-center justify-center'>
                                         <AiOutlineEye className='text-3xl' />
                                     </div>
-                                    <div className='w-12 h-12 relative bg-[#f8f8f8] flex items-center justify-center rounded-md'>
-                                        <BsFillEnvelopeFill className='text-3xl' />
-                                        <Zangiobod />
-                                    </div>
+                                    {/* <Zangiobod /> */}
                                 </div>
                             </div>
                         </Link>
@@ -1209,10 +1039,7 @@ export default function AdminMainPage() {
                                     <div className='w-12 h-12 bg-[#f8f8f8] rounded-md flex items-center justify-center'>
                                         <AiOutlineEye className='text-3xl' />
                                     </div>
-                                    <div className='w-12 h-12 relative bg-[#f8f8f8] flex items-center justify-center rounded-md'>
-                                        <BsFillEnvelopeFill className='text-3xl' />
-                                        <Xazratishox />
-                                    </div>
+                                    {/* <Xazratishox /> */}
                                 </div>
                             </div>
                         </Link>
@@ -1230,13 +1057,22 @@ export default function AdminMainPage() {
                                     <div className='w-12 h-12 bg-[#f8f8f8] rounded-md flex items-center justify-center'>
                                         <AiOutlineEye className='text-3xl' />
                                     </div>
-                                    <div className='w-12 h-12 relative bg-[#f8f8f8] flex items-center justify-center rounded-md'>
-                                        <BsFillEnvelopeFill className='text-3xl' />
-                                        <Toriq />
-                                    </div>
+                                    {/* <Toriq /> */}
                                 </div>
                             </div>
                         </Link>
+                        <div className="flex justify-end">
+                            <button className='px-10 py-2 green text-4xl rounded-md cursor-pointer text-white' onClick={handleToggle6}>
+                                <BiListPlus />
+                            </button>
+                        </div>
+                    </>
+                )}
+
+
+                {showElements6 && (
+                    <>
+                        <h1 className='text-center poppins text-3xl'>Yettinchi mintaqa</h1>
                         <Link href={"/MFYlar/Turkiston"}>
                             <div data-aos="fade-up" className='max-w-[1400px] mx-auto w-full shadow-md p-3 bg-white rounded-md flex justify-between items-center h-full mb-3'>
                                 <div className='flex items-center gap-1'>
@@ -1251,10 +1087,7 @@ export default function AdminMainPage() {
                                     <div className='w-12 h-12 bg-[#f8f8f8] rounded-md flex items-center justify-center'>
                                         <AiOutlineEye className='text-3xl' />
                                     </div>
-                                    <div className='w-12 h-12 relative bg-[#f8f8f8] flex items-center justify-center rounded-md'>
-                                        <BsFillEnvelopeFill className='text-3xl' />
-                                        <Turkiston />
-                                    </div>
+                                    {/* <Turkiston /> */}
                                 </div>
                             </div>
                         </Link>
@@ -1272,10 +1105,7 @@ export default function AdminMainPage() {
                                     <div className='w-12 h-12 bg-[#f8f8f8] rounded-md flex items-center justify-center'>
                                         <AiOutlineEye className='text-3xl' />
                                     </div>
-                                    <div className='w-12 h-12 relative bg-[#f8f8f8] flex items-center justify-center rounded-md'>
-                                        <BsFillEnvelopeFill className='text-3xl' />
-                                        <Bolon />
-                                    </div>
+                                    {/* <Bolon /> */}
                                 </div>
                             </div>
 
@@ -1293,10 +1123,7 @@ export default function AdminMainPage() {
                                         <div className='w-12 h-12 bg-[#f8f8f8] rounded-md flex items-center justify-center'>
                                             <AiOutlineEye className='text-3xl' />
                                         </div>
-                                        <div className='w-12 h-12 relative bg-[#f8f8f8] flex items-center justify-center rounded-md'>
-                                            <BsFillEnvelopeFill className='text-3xl' />
-                                            <Mustaqillik />
-                                        </div>
+                                        {/* <Mustaqillik /> */}
                                     </div>
                                 </div>
                             </Link>
@@ -1314,10 +1141,7 @@ export default function AdminMainPage() {
                                         <div className='w-12 h-12 bg-[#f8f8f8] rounded-md flex items-center justify-center'>
                                             <AiOutlineEye className='text-3xl' />
                                         </div>
-                                        <div className='w-12 h-12 relative bg-[#f8f8f8] flex items-center justify-center rounded-md'>
-                                            <BsFillEnvelopeFill className='text-3xl' />
-                                            <Istiqlol />
-                                        </div>
+                                        {/* <Istiqlol /> */}
                                     </div>
                                 </div>
                             </Link>
@@ -1335,10 +1159,7 @@ export default function AdminMainPage() {
                                         <div className='w-12 h-12 bg-[#f8f8f8] rounded-md flex items-center justify-center'>
                                             <AiOutlineEye className='text-3xl' />
                                         </div>
-                                        <div className='w-12 h-12 relative bg-[#f8f8f8] flex items-center justify-center rounded-md'>
-                                            <BsFillEnvelopeFill className='text-3xl' />
-                                            <Sarkor />
-                                        </div>
+                                        {/* <Sarkor /> */}
                                     </div>
                                 </div>
                             </Link>
@@ -1356,10 +1177,7 @@ export default function AdminMainPage() {
                                         <div className='w-12 h-12 bg-[#f8f8f8] rounded-md flex items-center justify-center'>
                                             <AiOutlineEye className='text-3xl' />
                                         </div>
-                                        <div className='w-12 h-12 relative bg-[#f8f8f8] flex items-center justify-center rounded-md'>
-                                            <BsFillEnvelopeFill className='text-3xl' />
-                                            <Nurafshon />
-                                        </div>
+                                        {/* <Nurafshon /> */}
                                     </div>
                                 </div>
                             </Link>
@@ -1378,10 +1196,7 @@ export default function AdminMainPage() {
                                     <div className='w-12 h-12 bg-[#f8f8f8] rounded-md flex items-center justify-center'>
                                         <AiOutlineEye className='text-3xl' />
                                     </div>
-                                    <div className='w-12 h-12 relative bg-[#f8f8f8] flex items-center justify-center rounded-md'>
-                                        <BsFillEnvelopeFill className='text-3xl' />
-                                        <Tinchlik />
-                                    </div>
+                                    {/* <Tinchlik /> */}
                                 </div>
                             </div>
                         </Link>
@@ -1399,24 +1214,30 @@ export default function AdminMainPage() {
                                     <div className='w-12 h-12 bg-[#f8f8f8] rounded-md flex items-center justify-center'>
                                         <AiOutlineEye className='text-3xl' />
                                     </div>
-                                    <div className='w-12 h-12 relative bg-[#f8f8f8] flex items-center justify-center rounded-md'>
-                                        <BsFillEnvelopeFill className='text-3xl' />
-                                        <Navruz />
-                                    </div>
+                                    {/* <Navruz /> */}
                                 </div>
                             </div>
                         </Link>
+                        {/* <div className="flex justify-end">
+                            <button className='px-10 py-2 green text-4xl rounded-md cursor-pointer text-white' onClick={handleToggle7}>
+                                <BiListPlus />
+                            </button>
+                        </div> */}
                     </>
                 )}
 
 
-                <div className='flex gap-1 mt-10 justify-center items-center'>
-                    <h1 className='text-center text-[16px] poppins'>Web Sayt Chortoq IT Park jamoasi tomonidan tuzildi</h1>
-                    <Image src={ITLOGO} alt='Image' width={50} height={10} />
-                </div>
+
+
+
+
 
 
             </>
+            <div className='flex gap-1 mt-10 justify-center items-center'>
+                <h1 className='text-center text-[16px] poppins'>Web Sayt Chortoq IT Park jamoasi tomonidan tuzildi</h1>
+                <Image src={ITLOGO} alt='Image' width={50} height={10} />
+            </div>
         </div >
     );
 }
