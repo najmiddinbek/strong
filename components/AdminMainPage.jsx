@@ -119,7 +119,7 @@ export default function AdminMainPage() {
                 </Link>
             </div>
             <>
-                <h1 className='text-center poppins text-3xl'>Birinchi mintaqa</h1>
+                <h1 className='text-center poppins text-3xl mb-3'>Birinchi mintaqa</h1>
                 <Link href={"/MFYlar/Oyqiron"}>
                     <div data-aos="fade-up" className='max-w-[1400px] mx-auto w-full shadow-md p-3 bg-white rounded-md flex justify-between items-center h-full mb-3'>
                         <div className='flex items-center gap-1'>
@@ -291,7 +291,7 @@ export default function AdminMainPage() {
 
                 {showElements1 && (
                     <>
-                        <h1 className='text-center poppins text-3xl'>Ikkinchi mintaqa</h1>
+                        <h1 className='text-center poppins text-3xl mb-3'>Ikkinchi mintaqa</h1>
                         <Link href={"/MFYlar/Yuksalish"}>
                             <div data-aos="fade-up" className='max-w-[1400px] mx-auto w-full shadow-md p-3 bg-white rounded-md flex justify-between items-center h-full mb-3'>
                                 <div className='flex items-center gap-1'>
@@ -447,7 +447,7 @@ export default function AdminMainPage() {
 
                 {showElements2 && (
                     <>
-                        <h1 className='text-center poppins text-3xl'>Uchinchi mintaqa</h1>
+                        <h1 className='text-center poppins text-3xl mb-3'>Uchinchi mintaqa</h1>
                         <Link href={"/MFYlar/Dostlik"}>
                             <div data-aos="fade-up" className='max-w-[1400px] mx-auto w-full shadow-md p-3 bg-white rounded-md flex justify-between items-center h-full mb-3'>
                                 <div className='flex items-center gap-1'>
@@ -603,7 +603,7 @@ export default function AdminMainPage() {
 
                 {showElements3 && (
                     <>
-                        <h1 className='text-center poppins text-3xl'>To`rtinchi mintaqa</h1>
+                        <h1 className='text-center poppins text-3xl mb-3'>To`rtinchi mintaqa</h1>
                         <Link href={"/MFYlar/Gulshan"}>
                             <div data-aos="fade-up" className='max-w-[1400px] mx-auto w-full shadow-md p-3 bg-white rounded-md flex justify-between items-center h-full mb-3'>
                                 <div className='flex items-center gap-1'>
@@ -759,7 +759,7 @@ export default function AdminMainPage() {
 
                 {showElements4 && (
                     <>
-                        <h1 className='text-center poppins text-3xl'>Beshinchi mintaqa</h1>
+                        <h1 className='text-center poppins text-3xl mb-3'>Beshinchi mintaqa</h1>
                         <Link href={"/MFYlar/Dehqonobod"}>
                             <div data-aos="fade-up" className='max-w-[1400px] mx-auto w-full shadow-md p-3 bg-white rounded-md flex justify-between items-center h-full mb-3'>
                                 <div className='flex items-center gap-1'>
@@ -916,7 +916,7 @@ export default function AdminMainPage() {
 
                 {showElements5 && (
                     <>
-                        <h1 className='text-center poppins text-3xl'>Oltinchi mintaqa</h1>
+                        <h1 className='text-center poppins text-3xl mb-3'>Oltinchi mintaqa</h1>
                         <Link href={"/MFYlar/Oqterak"}>
                             <div data-aos="fade-up" className='max-w-[1400px] mx-auto w-full shadow-md p-3 bg-white rounded-md flex justify-between items-center h-full mb-3'>
                                 <div className='flex items-center gap-1'>
@@ -1072,7 +1072,7 @@ export default function AdminMainPage() {
 
                 {showElements6 && (
                     <>
-                        <h1 className='text-center poppins text-3xl'>Yettinchi mintaqa</h1>
+                        <h1 className='text-center poppins text-3xl mb-3'>Yettinchi mintaqa</h1>
                         <Link href={"/MFYlar/Turkiston"}>
                             <div data-aos="fade-up" className='max-w-[1400px] mx-auto w-full shadow-md p-3 bg-white rounded-md flex justify-between items-center h-full mb-3'>
                                 <div className='flex items-center gap-1'>
