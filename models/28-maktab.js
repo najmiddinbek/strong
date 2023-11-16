@@ -4,7 +4,7 @@ const maktabSchema = new Schema(
     {
         shaxs: String,
         maktab: Number,
-        sinf: Number,
+        sinf: String,
         YangiTelefonRaqamiUser: String,
         adress: String,
     },

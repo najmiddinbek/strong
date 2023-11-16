@@ -22,6 +22,7 @@ export default function FilterOption({ setShaxsiy, setSetShaxs, setManzili, setT
     const [selectedOption, setSelectedOption] = useState("");
     const [selectedName, setOptionName] = useState("");
     const [selectedAddress, setSelectedAddress] = useState("");
+    const [selectedPhoneNumber, setSelectedPhoneNumber] = useState("");
 
     useEffect(() => {
         const fetchData = async () => {
@@ -44,11 +45,14 @@ export default function FilterOption({ setShaxsiy, setSetShaxs, setManzili, setT
 
             if (selectedPerson) {
                 setSelectedAddress(selectedPerson.adress);
+                setSelectedPhoneNumber(selectedPerson.YangiTelefonRaqamiUser);
             } else {
                 setSelectedAddress("");
+                setSelectedPhoneNumber("");
             }
         }
     }, [selectedOption, selectedName, mavzula]);
+
 
     const handleOptionChange = (e) => {
         const selectedGrade = e.target.value;
@@ -78,6 +82,7 @@ export default function FilterOption({ setShaxsiy, setSetShaxs, setManzili, setT
         }
     };
 
+
     const handleTelefonChange = (e) => {
         const newValue2 = e.target.value;
 
@@ -92,60 +97,74 @@ export default function FilterOption({ setShaxsiy, setSetShaxs, setManzili, setT
         }
     };
 
+
     const sinflar = Array.from({ length: 11 }, (_, index) => index + 1);
 
     return (
         <div>
-            <select className="px-2 py-3 mb-3 cursor-pointer w-full" value={selectedOption} onChange={handleOptionChange}>
+            <select className="px-2 py-3 mb-3 w-full  border  text-opacity-25 outline-none rounded-md cursor-pointer" value={selectedOption} onChange={handleOptionChange}>
                 <option>Bu yerdan tanlang</option>
-                {sinflar.map((sinf) => (
-                    <option key={sinf} value={sinf}>
-                        {sinf}-sinf
-                    </option>
-                ))}
+                <option>5-A</option>
+                <option>5-B</option>
+                <option>5-D</option>
+                <option>6-A</option>
+                <option>6-B</option>
+                <option>6-D</option>
+                <option>7-A</option>
+                <option>7-B</option>
+                <option>7-D</option>
+                <option>8-A</option>
+                <option>8-B</option>
+                <option>8-D</option>
+                <option>8-E</option>
+                <option>9-A</option>
+                <option>9-B</option>
+                <option>9-D</option>
+                <option>10-A</option>
+                <option>10-B</option>
+                <option>10-D</option>
+                <option>11-A</option>
+                <option>11-B</option>
+                <option>11-D</option>
             </select>
             <div className="gap-4">
-                <label className="text-[18px] poppins font-bold" htmlFor="">
+                <label className="mb-1 text-[20px] poppins font-bold" htmlFor="">
                     Familiya, Ismi hamda Otasining ismi
                 </label>
-                <select className="w-full p-3 mt-3 mb-4" value={selectedName} onChange={yangiIsm}>
+                <select className="w-full p-3 mb-4 border  text-opacity-25 outline-none rounded-md cursor-pointer" value={selectedName} onChange={yangiIsm}>
                     <option value="">Tanlang</option>
                     {mavzula
-                        .filter((mavzu) => mavzu.sinf === parseInt(selectedOption))
+                        .filter((mavzu) => mavzu.sinf === selectedOption)
                         .map((mavzu, index) => (
                             <option className="" key={index} value={mavzu.shaxs}>
-                                {mavzu.shaxs} <b>{mavzu.sinf}-sinf</b>
+                                {mavzu.shaxs}
                             </option>
                         ))}
                 </select>
-                <label className="text-[18px] poppins font-bold">
-                    Yashash manzili
-                </label>
-                <select className="w-full p-3 mt-3 mb-3" onChange={handleAddressChange}>
+
+                <select className="w-full p-3 mt-3 mb-3" value={selectedAddress} onChange={handleAddressChange}>
                     <option placeholder="">Tanlang</option>
-                    {mavzula.filter((mavzu) => mavzu.sinf === parseInt(selectedOption) && mavzu.shaxs === selectedName)
+                    {mavzula
+                        .filter((mavzu) => mavzu.sinf === parseInt(selectedOption) && mavzu.shaxs === selectedOption)
                         .map((mavzu, index) => (
-                            <>
-                                <option key={index} value={mavzu.adress}>
-                                    {mavzu.adress}
-                                </option>
-                            </>
+                            <option className="" key={index} value={mavzu.adress}>
+                                {mavzu.adress}
+                            </option>
                         ))}
                 </select>
 
-                <label className="text-[18px] poppins font-bold">
-                    Telefon raqami
-                </label>
 
-                <select className="w-full p-3 mt-3" onChange={handleTelefonChange}>
+                <select className="w-full p-3 mt-3" value={selectedPhoneNumber} onChange={handleTelefonChange}>
                     <option value="" disabled selected>Tanlang</option>
-                    {mavzula.filter((mavzu) => mavzu.sinf === parseInt(selectedOption) && mavzu.shaxs === selectedName)
+                    {mavzula
+                        .filter((mavzu) => mavzu.sinf === selectedOption)
                         .map((mavzu, index) => (
-                            <option key={index} value={mavzu.YangiTelefonRaqamiUser}>
+                            <option className="" key={index} value={mavzu.YangiTelefonRaqamiUser}>
                                 {mavzu.YangiTelefonRaqamiUser}
                             </option>
                         ))}
                 </select>
+
 
             </div>
         </div >

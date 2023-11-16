@@ -8,7 +8,6 @@ import FilterOption from "./FilterOption";
 import Link from "next/link";
 import Image from "next/image";
 import ITLOGO from "../public/Logo_IT_Park_Uzbekistan.svg.png"
-
 const PupilsAddClient = () => {
     const [shaxs, setShaxs] = useState("");
     const [maktab, setMaktab] = useState("");
@@ -26,6 +25,7 @@ const PupilsAddClient = () => {
     const [telefoni, setTelefoni] = useState("");
 
     const router = useRouter();
+
     const maktablar = Array.from({ length: 54 }, (_, index) => index + 1);
     const kun = Array.from({ length: 3 }, (_, index) => index + 1);
     const soat = Array.from({ length: 6 }, (_, index) => index + 1);
@@ -33,7 +33,6 @@ const PupilsAddClient = () => {
 
     const handleSubmit = async (e) => {
         e.preventDefault();
-        const apiUrl = process.env.API_URL
 
         try {
             const res = await fetch(`/api/topics`, {
@@ -96,13 +95,13 @@ const PupilsAddClient = () => {
                 <div className="text-end">
                     <Link className="green rounded-md py-3 px-10 text-white button" href={"/"}>Orqaga</Link>
                 </div>
-                <label className="text-[18px] poppins font-bold" htmlFor="">
+                <label className="text-[20px] poppins font-bold -mb-3" htmlFor="">
                     Maktabni tanlang
                 </label>
                 <select
                     onChange={(e) => setSchool(e.target.value)}
                     value={school}
-                    className="px-2 py-3 cursor-pointer"
+                    className="px-2 py-3 border text-opacity-25 outline-none rounded-md cursor-pointer"
                 >
                     <option>Bu yerdan tanlang</option>
                     {maktablar.map((maktab, index) => (
@@ -114,7 +113,7 @@ const PupilsAddClient = () => {
 
                 {school === "3" && (
                     <>
-                        <label className="text-[18px] font-bold poppins" htmlFor="">
+                        <label className="text-[20px] font-bold poppins -mb-3" htmlFor="">
                             Sinfni tanlang
                         </label>
 
@@ -134,13 +133,17 @@ const PupilsAddClient = () => {
                             type="text"
                             placeholder="Telefon raqami"
                         /> */}
-                        <label className="text-[18px] poppins font-bold" htmlFor="">MFY tanlang</label>
+                        <label className="text-[20px] poppins font-bold -mb-3" htmlFor="">Sektorni tanlang</label>
 
                         {/* <input className="w-full py-3 px-2 border outline-none" onChange={(e) => setMFY(e.target.value)} value={MFY} type="text" placeholder="MFY kiriting" /> */}
 
-                        <select className="px-2 py-3 cursor-pointer" onChange={(e) => setMFY(e.target.value)} value={MFY}>
+                        <select className="px-2 py-3  border  text-opacity-25 outline-none rounded-md cursor-pointer" onChange={(e) => setMFY(e.target.value)} value={MFY}>
                             <option>Bu yerdan tanlang</option>
-                            <option>Birinchi mintaqa</option>
+                            <option>1-sektor</option>
+                            <option>2-sektor</option>
+                            <option>3-sektor</option>
+                            <option>4-sektor</option>
+                            {/* <option>Birinchi mintaqa</option>
                             <option>Инамов Бахром Хабибжонович (OYQIRON MFY)</option>
                             <option>Бахриддинов Ўткир Хусниддинович (NAMANGAN MFY)</option>
                             <option>Дедабоев Баходир  (BAG`RIKENGLIK MFY)</option>
@@ -210,12 +213,12 @@ const PupilsAddClient = () => {
                             <option>Камалов Дилшод Дилмурод ўғли (NURAFSHON MFY)</option>
                             <option>Акбаров Элдорбек Сайфиддинович (NAVRUZ MFY)</option>
                             <option>Рахимов Аъзамат Азамжон ўғли  (SARKOR MFY)</option>
-                            <option>Нематжанов Қахрамон Исломжон ўғли  (TINCHLIK MFY)</option>
+                            <option>Нематжанов Қахрамон Исломжон ўғли  (TINCHLIK MFY)</option> */}
                         </select>
-                        <label className="text-[18px] font-bold poppins" htmlFor="">
+                        <label className="text-[20px] font-bold poppins -mb-3" htmlFor="">
                             Qoldirilgan dars vaqti
                         </label>
-                        <select onChange={(e) => setNewDarsQoldirish(e.target.value)} value={newDarsQoldirish} className="px-2 py-3 cursor-pointer">
+                        <select onChange={(e) => setNewDarsQoldirish(e.target.value)} value={newDarsQoldirish} className="px-2 py-3 cursor-pointer border  text-opacity-25 outline-none rounded-md cursor-pointer">
                             <option>Bu yerdan tanlang</option>
 
                             {soat.map((watch, index) => (
@@ -223,9 +226,7 @@ const PupilsAddClient = () => {
                             ))}
 
                             <option>Kun bo`yicha</option>
-                            {kun.map((day, index) => (
-                                <option key={index}>{day}-kun</option>
-                            ))}
+                            <option>1-kun</option>
                         </select>
 
 
@@ -268,6 +269,7 @@ const PupilsAddClient = () => {
                         <label className="text-[18px] poppins font-bold" htmlFor="">MFY tanlang</label>
                         <select className="px-2 py-3 cursor-no-drop" onChange={(e) => setMFY(e.target.value)} value={MFY}>
                             <option>Ma`lumot yo`q</option>
+
                             {/* <option>SARKOR MFY</option>
                             <option>BOG`ISHAMOL MFY</option>
                             <option>BESHKAPA MFY</option>
@@ -281,7 +283,7 @@ const PupilsAddClient = () => {
                         <label className="text-[18px] font-bold poppins" htmlFor="">
                             Qoldirilgan dars vaqti
                         </label>
-                        <select onChange={(e) => setNewDarsQoldirish(e.target.value)} value={newDarsQoldirish} className="px-2 py-3 cursor-no-drop">
+                        <select onChange={(e) => setNewDarsQoldirish(e.target.value)} value={newDarsQoldirish} className="border  text-opacity-25 outline-none rounded-md px-2 py-3 cursor-no-drop">
                             <option>Malumot yo`q</option>
                         </select>
 
