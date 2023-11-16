@@ -136,7 +136,7 @@ export default function FilterOption({ setShaxsiy, setSetShaxs, setManzili, setT
                         .filter((mavzu) => mavzu.sinf === selectedOption)
                         .map((mavzu, index) => (
                             <option className="" key={index} value={mavzu.shaxs}>
-                                {mavzu.shaxs}
+                                {mavzu.shaxs} {mavzu.adress}
                             </option>
                         ))}
                 </select>
