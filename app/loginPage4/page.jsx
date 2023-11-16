@@ -9,7 +9,7 @@ export default function Page() {
     const handleInputChange = (event) => {
         const inputValue = event.target.value;
 
-        if (inputValue === 'chortoq2050') {
+        if (inputValue === 'Chortoq2050') {
             history.push('/Sectorlar/4-sektor');
         }
     };
