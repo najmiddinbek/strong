@@ -67,7 +67,6 @@ export default function FilterOption({ setShaxsiy, setSetShaxs, setManzili, setT
         setOptionName(selectedNamesi);
         setSetShaxs(selectedNamesi);
     };
-
     const handleAddressChange = (e) => {
         const newValue = e.target.value;
 
@@ -81,6 +80,7 @@ export default function FilterOption({ setShaxsiy, setSetShaxs, setManzili, setT
             setManzili(newValue);
         }
     };
+
 
 
     const handleTelefonChange = (e) => {
@@ -97,12 +97,11 @@ export default function FilterOption({ setShaxsiy, setSetShaxs, setManzili, setT
         }
     };
 
-
     const sinflar = Array.from({ length: 11 }, (_, index) => index + 1);
 
     return (
         <div>
-            <select className="px-2 py-3 mb-3 w-full  border  text-opacity-25 outline-none rounded-md cursor-pointer" value={selectedOption} onChange={handleOptionChange}>
+            <select className="px-2 py-3 mb-3 cursor-pointer w-full  border  text-opacity-25 outline-none rounded-md cursor-pointer" value={selectedOption} onChange={handleOptionChange}>
                 <option>Bu yerdan tanlang</option>
                 <option>5-A</option>
                 <option>5-B</option>
@@ -128,7 +127,7 @@ export default function FilterOption({ setShaxsiy, setSetShaxs, setManzili, setT
                 <option>11-D</option>
             </select>
             <div className="gap-4">
-                <label className="mb-1 text-[20px] poppins font-bold" htmlFor="">
+                <label className="mb-1 text-[20px] poppins font-bold  " htmlFor="">
                     Familiya, Ismi hamda Otasining ismi
                 </label>
                 <select className="w-full p-3 mb-4 border  text-opacity-25 outline-none rounded-md cursor-pointer" value={selectedName} onChange={yangiIsm}>
@@ -137,34 +136,39 @@ export default function FilterOption({ setShaxsiy, setSetShaxs, setManzili, setT
                         .filter((mavzu) => mavzu.sinf === selectedOption)
                         .map((mavzu, index) => (
                             <option className="" key={index} value={mavzu.shaxs}>
-                                {mavzu.shaxs}
+                                {mavzu.shaxs} <b>{mavzu.adress} sinf</b>
                             </option>
                         ))}
                 </select>
 
-                <select className="w-full p-3 mt-3 mb-3" value={selectedAddress} onChange={handleAddressChange}>
+                <label className="mb-1 text-[20px] poppins font-bold">
+                    Yashash manzili
+                </label>
+                <select className="w-full p-3 mt-3 mb-3" onChange={handleAddressChange}>
                     <option placeholder="">Tanlang</option>
                     {mavzula
-                        .filter((mavzu) => mavzu.sinf === parseInt(selectedOption) && mavzu.shaxs === selectedOption)
+                        .filter((mavzu) => mavzu.sinf === selectedOption)
                         .map((mavzu, index) => (
-                            <option className="" key={index} value={mavzu.adress}>
+                            <option className="" key={index} value={mavzu.shaxs}>
                                 {mavzu.adress}
                             </option>
                         ))}
                 </select>
 
 
-                <select className="w-full p-3 mt-3" value={selectedPhoneNumber} onChange={handleTelefonChange}>
-                    <option value="" disabled selected>Tanlang</option>
-                    {mavzula
-                        .filter((mavzu) => mavzu.sinf === selectedOption)
+                <label className="mb-1 text-[20px] poppins font-bold">
+                    Telefon raqami
+                </label>
+
+                <select className="w-full p-3 mt-3" onChange={handleTelefonChange}>
+                    <option value="" >Tanlang</option>
+                    {mavzula.filter((mavzu) => mavzu.sinf === selectedOption)
                         .map((mavzu, index) => (
-                            <option className="" key={index} value={mavzu.YangiTelefonRaqamiUser}>
+                            <option key={index} value={mavzu.YangiTelefonRaqamiUser}>
                                 {mavzu.YangiTelefonRaqamiUser}
                             </option>
                         ))}
                 </select>
-
 
             </div>
         </div >
