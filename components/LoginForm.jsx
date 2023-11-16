@@ -378,7 +378,7 @@ export default function LoginForm() {
       });
       return;
     }
-    if (email === "Mahmudov Ikromjon" && password === "ikromjon101") {
+    if (email === "Mahmudov Ikromjon" && password === "ikromjon77") {
       router.replace("/pupilsAdd");
       toast.success(`Xush kelibsiz ${email}`, {
         position: "top-right",
