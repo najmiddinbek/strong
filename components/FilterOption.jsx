@@ -101,7 +101,7 @@ export default function FilterOption({ setShaxsiy, setSetShaxs, setManzili, setT
 
     return (
         <div>
-            <select className="px-2 py-3 mb-3 cursor-pointer w-full  border  text-opacity-25 outline-none rounded-md cursor-pointer" value={selectedOption} onChange={handleOptionChange}>
+            <select className="px-2 py-3 mb-3  w-full  border  text-opacity-25 outline-none rounded-md cursor-pointer" value={selectedOption} onChange={handleOptionChange}>
                 <option>Bu yerdan tanlang</option>
                 <option>5-A</option>
                 <option>5-B</option>

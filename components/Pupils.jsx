@@ -218,7 +218,7 @@ const PupilsAddClient = () => {
                         <label className="text-[20px] font-bold poppins -mb-3" htmlFor="">
                             Qoldirilgan dars vaqti
                         </label>
-                        <select onChange={(e) => setNewDarsQoldirish(e.target.value)} value={newDarsQoldirish} className="px-2 py-3 cursor-pointer border  text-opacity-25 outline-none rounded-md cursor-pointer">
+                        <select onChange={(e) => setNewDarsQoldirish(e.target.value)} value={newDarsQoldirish} className="px-2 py-3 border  text-opacity-25 outline-none rounded-md cursor-pointer">
                             <option>Bu yerdan tanlang</option>
 
                             {soat.map((watch, index) => (
