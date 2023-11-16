@@ -546,6 +546,20 @@ export default function LoginForm() {
       });
       return;
     }
+    if (email === "Mashrapov Alijon" && password === "alijon77") {
+      router.replace("/pupilsAdd");
+      toast.success(`Xush kelibsiz ${email}`, {
+        position: "top-right",
+        autoClose: 1000000000000000,
+        hideProgressBar: false,
+        closeOnClick: true,
+        pauseOnHover: true,
+        draggable: true,
+        progress: undefined,
+        theme: "light",
+      });
+      return;
+    }
     if (!email || !password) {
       toast.error("Please enter valid credentials", {
         position: "top-center",

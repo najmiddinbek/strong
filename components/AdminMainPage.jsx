@@ -116,7 +116,7 @@ export default function AdminMainPage() {
                     Orqaga
                 </Link>
             </div>
-            <Link href={"/Sectorlar/1-sektor"}>
+            <Link href={"/loginPage"}>
                 <div data-aos="fade-up" className='max-w-[1400px] mx-auto w-full shadow-md p-3 bg-white rounded-md flex justify-between items-center h-full mb-3'>
                     <div className='flex items-center gap-1'>
                         <p className='text-[18px] poppins'>
@@ -136,7 +136,7 @@ export default function AdminMainPage() {
                     </div>
                 </div>
             </Link>
-            <Link href={"/Sectorlar/2-sektor"}>
+            <Link href={"/loginPage1"}>
                 <div data-aos="fade-up" className='max-w-[1400px] mx-auto w-full shadow-md p-3 bg-white rounded-md flex justify-between items-center h-full mb-3'>
                     <div className='flex items-center gap-1'>
                         <p className='text-[18px] poppins'>
@@ -157,7 +157,7 @@ export default function AdminMainPage() {
                     </div>
                 </div>
             </Link>
-            <Link href={"/Sectorlar/3-sektor"}>
+            <Link href={"loginPage2"}>
                 <div data-aos="fade-up" className='max-w-[1400px] mx-auto w-full shadow-md p-3 bg-white rounded-md flex justify-between items-center h-full mb-3'>
                     <div className='flex items-center gap-1'>
                         <p className='text-[18px] poppins'>
@@ -178,7 +178,7 @@ export default function AdminMainPage() {
                     </div>
                 </div>
             </Link>
-            <Link href={"/Sectorlar/4-sektor"}>
+            <Link href={"/loginPage4"}>
                 <div data-aos="fade-up" className='max-w-[1400px] mx-auto w-full shadow-md p-3 bg-white rounded-md flex justify-between items-center h-full mb-3'>
                     <div className='flex items-center gap-1'>
                         <p className='text-[18px] poppins'>
@@ -200,9 +200,10 @@ export default function AdminMainPage() {
                 </div>
             </Link>
 
-            <div className='flex gap-1 mt-10 justify-center '>
-                <h1 className='text-center text-[16px] poppins'>Web Sayt Chortoq IT Park jamoasi tomonidan tuzildi</h1>
-                <Image src={ITLOGO} alt='Image' width={50} height={10} />
+            <div className='anons flex gap-1 mt-10 justify-center'>
+                <h1 className='text-center text-[16px] poppins'>Web Sayt Chortoq IT Park jamoasi tomonidan tuzildi
+                    <Link href={"https://t.me/Sarvarr_dev"}> Murojaat uchun</Link></h1>
+                <Image src={ITLOGO} className='flex justify-center' alt='Image' width={50} height={10} />
             </div>
         </div >
     );

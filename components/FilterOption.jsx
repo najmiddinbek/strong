@@ -136,33 +136,37 @@ export default function FilterOption({ setShaxsiy, setSetShaxs, setManzili, setT
                         .filter((mavzu) => mavzu.sinf === selectedOption)
                         .map((mavzu, index) => (
                             <option className="" key={index} value={mavzu.shaxs}>
-                                {mavzu.shaxs} <b>{mavzu.adress} sinf</b>
+                                {mavzu.shaxs}
                             </option>
                         ))}
                 </select>
 
-                <label className="mb-1 text-[20px] poppins font-bold">
+
+                <label className="-mb-4 text-[20px] poppins font-bold">
                     Yashash manzili
                 </label>
-                <select className="w-full p-3 mt-3 mb-3" onChange={handleAddressChange}>
-                    <option placeholder="">Tanlang</option>
+                <select className="w-full p-3 mb-3 border rounded-md" onChange={handleAddressChange}>
+                    <option>Tanlang</option>
                     {mavzula
-                        .filter((mavzu) => mavzu.sinf === selectedOption)
+                        .filter((mavzu) => mavzu.shaxs === selectedName)
                         .map((mavzu, index) => (
-                            <option className="" key={index} value={mavzu.shaxs}>
+                            <option key={index} value={mavzu.adress}>
                                 {mavzu.adress}
                             </option>
                         ))}
                 </select>
 
 
-                <label className="mb-1 text-[20px] poppins font-bold">
+
+
+                <label className="-mb-4 text-[20px] poppins font-bold">
                     Telefon raqami
                 </label>
 
-                <select className="w-full p-3 mt-3" onChange={handleTelefonChange}>
+                <select className="w-full p-3 border rounded-md" onChange={handleTelefonChange}>
                     <option value="" >Tanlang</option>
-                    {mavzula.filter((mavzu) => mavzu.sinf === selectedOption)
+                    {mavzula
+                        .filter((mavzu) => mavzu.shaxs === selectedName)
                         .map((mavzu, index) => (
                             <option key={index} value={mavzu.YangiTelefonRaqamiUser}>
                                 {mavzu.YangiTelefonRaqamiUser}

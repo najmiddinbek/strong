@@ -227,6 +227,7 @@ const PupilsAddClient = () => {
 
                             <option>Kun bo`yicha</option>
                             <option>1-kun</option>
+                            <option>Sababli</option>
                         </select>
 
 
