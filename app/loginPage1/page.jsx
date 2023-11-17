@@ -12,6 +12,9 @@ export default function Page() {
         if (inputValue === 'Chortoq2050') {
             history.push('/Sectorlar/2-sektor');
         }
+        if (inputValue === 'Chortoq2000') {
+            history.push('/Sectorlar/2-sektor-Login');
+        }
     };
 
     return (
