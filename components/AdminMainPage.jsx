@@ -116,7 +116,7 @@ export default function AdminMainPage() {
                     Orqaga
                 </Link>
             </div>
-            <Link href={"/loginPage"}>
+            <Link href={"/Logins/Login1"}>
                 <div data-aos="fade-up" className='max-w-[1400px] mx-auto w-full shadow-md p-3 bg-white rounded-md flex justify-between items-center h-full mb-3'>
                     <div className='flex items-center gap-1'>
                         <p className='text-[18px] poppins'>

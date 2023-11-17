@@ -35,9 +35,9 @@ const Filter = () => {
     useEffect(() => {
         const fetchData = async () => {
             const a = await getTopics();
-            const topiclar = a?.topiclar;
+            const topics = a?.topiclar;
 
-            const filteredTopics = topiclar.filter((t) => t.MFY === "2-sektor");
+            const filteredTopics = topics.filter((t) => t.MFY === "1-sektor");
 
             setTopiclar(filteredTopics);
             setFilteredMavzula(filteredTopics);
@@ -51,7 +51,7 @@ const Filter = () => {
             t.newIsm.toLowerCase().includes(filterValue.newIsm.toLowerCase()) &&
             t.newSinfi.toLowerCase().includes(filterValue.newSinfi.toLowerCase()) &&
             t.school.toLowerCase().includes(filterValue.school.toLowerCase()) &&
-            t.MFY === "2-sektor" // Filter by MFY equal to "CHORTOQ"
+            t.MFY === "1-sektor"
         );
         setFilteredMavzula(filteredArray);
     };
@@ -124,7 +124,7 @@ const Filter = () => {
                             <th className="admin_panel_th py-4 px-2 poppins-2">Telefon raqami</th>
                             <th className="admin_panel_th py-4 px-2 poppins-2">Maktab</th>
                             <th className="admin_panel_th py-4 px-2 poppins-2">Sinf</th>
-                            <th className="admin_panel_th py-4 px-2 poppins-2">Sektor</th>
+                            <th className="admin_panel_th py-4 px-2 poppins-2">MFY</th>
                             <th className="admin_panel_th py-4 px-2 poppins-2">Yashash manzili</th>
                             <th className="admin_panel_th py-4 px-2 poppins-2">Kiritilgan vaqti</th>
                             <th className="admin_panel_th py-4 px-2 poppins-2">Qoldirgan dars vaqti</th>
@@ -140,7 +140,7 @@ const Filter = () => {
                                 <td className="px-2 py-4 admin_panel_td">{t.school}</td>
                                 <td className='admin_panel_td'>{t.newSinfi}</td>
                                 <td className="px-2 py-4 admin_panel_td">{t.MFY}</td>
-                                <td className="px-2 py-4 admin_panel_td">{t.manzili}</td>
+                                <td className="px-2 py-4 admin_panel_td">{t.adress}</td>
                                 <td className="px-2 py-4 admin_panel_td">{new Date(t.createdAt).toLocaleString()}</td>
                                 <td className="px-2 py-4 admin_panel_td">{t.newDarsQoldirish}</td>
                                 <td>
